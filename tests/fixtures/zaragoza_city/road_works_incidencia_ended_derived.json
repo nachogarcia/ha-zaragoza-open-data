@@ -1,0 +1,1386 @@
+{
+ "totalCount": 69,
+ "start": 0,
+ "rows": 500,
+ "result": [
+  {
+   "id": 27864,
+   "title": "AVENIDA MADRID",
+   "calle": "MADRID  AVENIDA DE, 154",
+   "motivo": "Continuando la instalación de balizas luminosas en los pasos de peatones de la Avenida",
+   "observaciones": "En horario de 08:00 a 15:00 horas, se ocupará parte de ambas aceras a la altura\r\ndel número 154 (garantizando el paso peatonal) y, gradualmente, uno de los dos carriles de circulación sentido Vía Hispanidad en dicho número y a la altura del 162 (para construcción de arqueta en mediana). También de forma progresiva y para instalar las espiras a la altura de los números 245 y 251 (sentido Avenida Navarra), se ocupará el único carril en dicho sentido durante el tiempo del ciclo semafórico en el que el paso de buses y taxis se encuentre rojo.\r\nLa actuación se coordinará con AVANZA.",
+   "inicio": "2026-11-19T00:00:00",
+   "fin": "2026-11-22T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9124201455545976,
+     41.65169845326898
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 28004,
+   "title": "AV. DE VALENCIA",
+   "calle": "VALENCIA  AVENIDA DE, 9",
+   "motivo": "Con motivo del avance de los trabajos de reforma integral de la Av. De Valencia",
+   "observaciones": "Se va a ocupar el carril Bus, sentido centro de ciudad (actualmente sin servicio) para que los vehículos de obra se desplacen entre las dos zonas de actuación en las que se están trabajando. Se garantizará la prioridad de paso a los vehículos\r\nque salgan o accedan a las calles Pamplona Escudero, Alcalde Burriel y Fueros de Aragón y el acceso y salida del badén situado en el nº 47-49. Así mismo es necesario prohibir estacionar en la reserva de motos situada en la intersección con Fueros de Aragón para habilitar el carril provisional mencionado.\r\nDicho recorrido se realizará siempre acompañado de personal auxiliar durante todo el recorrido.",
+   "inicio": "2026-02-02T00:00:00",
+   "fin": "2026-12-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8947198531736783,
+     41.64711081540748
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 28052,
+   "title": "ANSELMO CLAVE",
+   "calle": "CLAVE  JOSE ANSELMO, 11",
+   "motivo": "Dentro del Proyecto de Urbanización G-19-1 entorno de la estación del Portillo.",
+   "observaciones": "Se va a prohibir desde el 4 de febrero y hasta final de obra (fecha estimada principios de enero de 2027) estacionar entre los pasos de peatones situados a la altura del nº 10 de calle General Mayandia 20 m aprox. para acopio de\r\nmateriales y trabajos previos",
+   "inicio": "2026-02-04T00:00:00",
+   "fin": "2027-01-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8932420276067065,
+     41.65252505790961
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29395,
+   "title": "CALLE COSO",
+   "calle": "COSO, 94",
+   "motivo": "Continuando las obras de la reforma integral de Coso Alto y Plaza San Miguel.",
+   "observaciones": "Desde el 26 de mayo a las 9:30 horas y durante nueve meses:\r\n- se cortará al tráfico rodado la Calle Coso (entre Santa Catalina y Espartero), habilitando para buses y residentes un carril en la Plaza San Miguel sentido Echegaray y Caballero, y obligando a las calles Don Jaime, Santa Catalina, Jerónimo Blancas y Josefa Amar y Borbón (que invierte su sentido de circulación para acceder al parking) a dirigirse hacia la Plaza España.\r\n- El tráfico, sentido Plaza San Miguel, quedará cortado en Independencia y se desviará por Calle San Miguel.\r\n-San Vicente de Paúl no tendrá salida hacia el Coso y, en el tramo desde Santo Dominguito de Val, se señalizará una carga y descarga. La Calle Verónica y el tramo de San Jorge entre San Vicente de Paul y Coso, invertirán su sentido de circulación.\r\n- Quedarán en fondo de saco y doble sentido de circulación las calles Rufas y Hermanos Ibarra, a las que se accederá desde Sancho y Gil que se habilitará en doble sentido para los badenes, el Hotel Zentro, obras y Cruz Roja.\r\nEl día 25 de mayo a las 09:30 se adelantarán las siguientes actuaciones:\r\n¿ Invertir el sentido del tramo de la Calle San Jorge entre San Vicente de Paul y Coso.\r\n¿ Señalizar doble sentido de circulación en la Calle Sancho y Gil dejando en uso únicamente el sentido actual.\r\n¿ Modificar la señalización en Pedro Joaquín Soler (tramo entre Verónica y Coso), habilitando reserva de motos en lado par y trasladando la carga y descarga al impar.\r\n¿ Señalizar Reserva Bus Hoteles en Don Jaime no 9 (retirando sólo un contenedor de papel).\r\n- Se prohibirá estacionar (a partir del día 25): en el n.º 77 de Coso (40 metros de la reserva de motos), en Plaza de los Sitios 2 (para habilitar una nueva carga y descarga entre la reserva de Cruz Roja y velador), en la toda la Calle Sancho y Gil excepto en las reservas de la Cruz Roja (para habilitar el doble sentido), en Pedro Joaquín Soler excepto bicis (para reservas de motos y de carga y descarga), en calles Verónica y San Jorge (para el cambio de sentido en ambas), en el Paseo Echegaray y Caballero no 150 (reserva de motos para habilitar el terminal de línea bus 28) y en el no 9 de Don Jaime I (reserva bus hoteles).\r\n- Se coordinará con AVANZA y el Consorcio de Transportes el desvío de las líneas afectadas.\r\nPor las modificaciones a realizar en la regulación semafórica, será necesaria la presencia de Policía Local, ambos días (el día 25 por los cruces semaforizados en la Calle San Jorge con las calles San Vicente de Paul y Coso y el día 26, especialmente, para la apertura del carril que accederá al Coso desde Plaza San Miguel hasta que se haga efectivo el corte de Coso, para el corte de San Vicente de Paúl y para obligar al giro derecha en Don Jaime hasta que se haga efectivo el corte en Independencia, se pueda señalizar la inversión de Josefa Amar y Borbón y se corte el Coso).",
+   "inicio": "2026-05-25T00:00:00",
+   "fin": "2027-02-26T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8775261680218777,
+     41.650906992124625
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 28867,
+   "title": "CALLE SIXTO CELORRIO",
+   "calle": "CELORRIO  SIXTO, 11",
+   "motivo": "Como inicio de las obras del proyecto de renovación del Parque Tío Jorge.",
+   "observaciones": "Desde el 13 de abril y durante 10 meses, los vehículos de obra accederán y saldrán del parque desde el acceso existente entre las calles Peña Oroel y Almadieros del Roncal.",
+   "inicio": "2026-04-13T00:00:00",
+   "fin": "2027-02-28T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8757193744377758,
+     41.65927308363531
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29040,
+   "title": "CALLE JERÓNIMO CÁNCER",
+   "calle": "CANCER  JERONIMO, 8",
+   "motivo": "Para realizar obras de urbanización en el ámbito del Área de Intervención G-56-13.",
+   "observaciones": "Se corta la vía entre las calles Ibón de Escalar y San Alberto Magno\r\nmanteniendo prohibido el estacionamiento en el tramo y desviando el tráfico por Lagos de Coronas y Antonio Leyva.\r\nContinúa la autorización para acceder y salir de la zona de obras por el rebaje existente delante de la parada de bus ubicada en San Alberto Magno (acera impar entre calles Zamenhoff y Lolita Parra).",
+   "inicio": "2026-04-29T00:00:00",
+   "fin": "2026-12-12T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9273848584884881,
+     41.65284945874609
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 29675,
+   "title": "AVENIDA VALENCIA",
+   "calle": "VALENCIA  AVENIDA DE, 41",
+   "motivo": "Continuando con la renovación integral de la Avenida (fecha de finalización prevista enero de 2027).",
+   "observaciones": "Del 16 de junio a las 09:30 horas y hasta fin de obra, se ocupará toda la calzada de la vía entre las calles San Juan Bosco y Avenida Goya, garantizando el tráfico pasante desde la Calle Bretón a García Sánchez, desde Pamplona Escudero a Ávila y desde Lérida a Fueros de Aragón. Se mantienen las prohibiciones de estacionamiento en toda la Avenida, en el lado impar de Tomás Bretón entre Oro Giral y José Serrano, en el tramo impar de la Calle Escosura entre Calle Burgos y la Avenida Valencia y entre los números 2 y 4 de la Calle Alcalde Burriel.\r\nContinúa habilitada la parada provisional de AVANZA en Violante de Hungría (frente al Palacio de deportes), pero no la ubicada en Univérsitas n.º 4 y dejará de autorizarse el giro izquierda desde\r\nDuquesa Villahermosa hacia Unceta al bus urbano, coordinando con AVANZA los desvíos de las líneas afectadas (22 y Ci3).\r\nSerá necesaria la colaboración de Policía Local por afectar a los semáforos de los cruces de la Avenida con San Juan Bosco y con Tomás Bretón, y los del cruce de las calles Covarrubias y García Sánchez.",
+   "inicio": "2026-06-16T00:00:00",
+   "fin": "2027-01-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8970911765927227,
+     41.64615364958679
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29691,
+   "title": "ESTACIONAMIENTO MARQUÉS DE LA CADENA",
+   "calle": "CADENA(MARQUES DE LA), 7",
+   "motivo": "Para la instalación de placas fotovoltaicas (Planta solar lote 2) en el estacionamiento situado entre los números 66 y 68.",
+   "observaciones": "Se mantiene prohibido elestacionamiento en el mismo excepto en las plazas para recarga de vehículos eléctricos que únicamente se ocuparán el tiempo estrictamente necesario para realizar el trabajo en las mismas. Se\r\nmantendrá abierto al tráfico el ramal que conecta las calles José Gonzalvo Vives y Augusto García Hedgart para el acceso a la estación de servicio, al supermercado y a la recarga de vehículos eléctricos.",
+   "inicio": "2026-06-15T00:00:00",
+   "fin": "2026-12-05T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8616810375240402,
+     41.6589970959465
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29864,
+   "title": "ESTACIONAMIENTO CDM SIGLO XXI (AVENIDA JOSÉ ATARES)",
+   "calle": "JOSÉ ATARÉS, 105",
+   "motivo": "Para la instalación de placas fotovoltaicas (Planta solar lote 1) en el estacionamiento situado entre el CDM Siglo XXI y el IES Miguel Molinos",
+   "observaciones": "Se mantiene ocupado el estacionamiento en la mitad sur y toda la zona de estacionamiento paralela a la Avenida.",
+   "inicio": "2026-06-27T00:00:00",
+   "fin": "2026-11-16T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8999771525745934,
+     41.672372935421585
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29394,
+   "title": "CALLE PEDRO CERBUNA",
+   "calle": "CERBUNA  PEDRO, 39",
+   "motivo": "Continuando con las obras para su renovación integral.",
+   "observaciones": "Del 25 de mayo de 2026 a partir de las 09:30 horas al 18 de febrero de 2027, se cortará el tramo entre las calles Domingo Miral  garantizando tanto el cambio de sentido en esta última como el tráfico pasante desde Serrano Sanz) y la Plaza San Francisco, prohibiendo el estacionamiento entre ambas vías. El tramo de Andrés Giménez Soler entre Arzobispo Apaolaza y Cerbuna quedará en fondo de saco y doble sentido de circulación para motos (se prohibirá el estacionamiento en ambos lados para habilitar reservas de motos).\r\nTanto el acceso a la Universidad como al parking público, únicamente podrán realizarse desde la Calle Baltasar Gracián.\r\nSe habilitarán dos nuevas reservas de carga y descarga en Arzobispo Apaolaza, prohibiendo 15 metros de estacionamiento en el no 6 y 45 metros en el n.º 13 (para instalar también 5 m. de aparcabicis).",
+   "inicio": "2026-05-25T00:00:00",
+   "fin": "2027-02-18T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8984935724263399,
+     41.63917084105878
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 30111,
+   "title": "CALLE DESIDERIO ESCOSURA",
+   "calle": "ESCOSURA  DESIDERIO, 2",
+   "motivo": "Continuando con las obras de la Avenida Valencia (fecha de finalización prevista enero de 2027) y para realizar la conexión de la tubería de abastecimiento",
+   "observaciones": "Se ocupará, a la altura del no 3, la calzada y el estacionamiento en el lado par, prohibiendo 20 metros de estacionamiento para desplazar la reserva de carga y descarga.",
+   "inicio": "2026-07-16T00:00:00",
+   "fin": "2026-12-01T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.897519976421216,
+     41.64643737027468
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 29137,
+   "title": "CALLE AGUSTÍN DE QUINTO",
+   "calle": "QUINTO  AGUSTIN DE, 7",
+   "motivo": "Continuando con las obras del Río Huerva lote 1 y para trasladar las casetas de obra actualmente ubicadas en Bruno Solano.",
+   "observaciones": "Del 6 de mayo y hasta final de 2026, se prohibirá el estacionamiento en ambos lados del tramo entre las calles Manuel Lasala y Francisco de la Ripa (el tráfico procedente de esta última continuará desviado hacia Mariano Supervía). En la Calle Bruno Solano se volverá a permitir estacionar en el lado par del tramo entre Lasala y Catania, quedando en fondo de saco y doble sentido de circulación desde Catania.",
+   "inicio": "2026-05-06T00:00:00",
+   "fin": "2026-12-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8931050466745665,
+     41.63941875615426
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 30074,
+   "title": "CALLES SÁDABA Y ESCORIAZA Y FABRO",
+   "calle": "SADABA, 5",
+   "motivo": "Dentro del Proyecto de Urbanización G-19-1 (entorno antigua Estación Portillo) ",
+   "observaciones": "Una vez se hayan ejecutado las primeras capas de aglomerado previstas los días 13 y 15 de julio dentro de la zona ahora vallada, desde el 16 de julio a las 09:30 horas y durante cuatro meses, se ocupará la calzada libre entre la Calle Orús y Vicente Berdusán, habilitando el paso del tráfico por un carril en la zona ya pavimentada (dos carriles para el fondo de saco de la Calle Sádaba) y garantizando el acceso y la salida a todos los badenes afectados. Se prohibirá el estacionamiento en el tramo salvo en las reservas para las urgencias sanitarias y PMR del C.S. Parque Roma. También se prohibirán 6 metros de estacionamiento en el lado par de la Calle Orús próximo a Calle Asturias para trasladar la RPMR ahora ubicada en Escoriaza y Fabro 51-53.",
+   "inicio": "2026-07-16T00:00:00",
+   "fin": "2026-11-16T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8982292298230231,
+     41.654816645482754
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31572,
+   "title": "JEAN PAUL SARTRE",
+   "calle": "SARTRE  JEAN PAUL, 10",
+   "observaciones": "Desde las 8 hasta las 16 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8720816702397903,
+     41.67854756752159
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31573,
+   "title": "C/ LEOPOLDO ROMEO, NÚMEROS IMPARES",
+   "calle": "ROMEO  LEOPOLDO, 9",
+   "tramo": " Entre C/ Doctor Iranzo y c/ Obispo Laplana ",
+   "observaciones": "Desde las 10 hasta las 12 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8633125423862488,
+     41.646665495073115
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31574,
+   "title": "DOCTOR IRANZO, NÚMEROS IMPARES",
+   "calle": "IRANZO (DOCTOR), 13",
+   "tramo": ", Entre C/ Rodrigo Rebolledo y C/ Monasterio de Siresa",
+   "observaciones": " Desde las 10 hasta las 12 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8649048453590371,
+     41.64267616377584
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31575,
+   "title": "AVDA. PABLO GARGALLO",
+   "calle": "GARGALLO  PABLO AV., 1",
+   "tramo": "Entre Avda. De Francia y Jardines de Lisboa",
+   "observaciones": "Desde las 10 hasta las 12 horas",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8938306210556014,
+     41.659200456571014
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31579,
+   "title": "C/ AGUSTÍN GERICÓ, NÚMEROS IMPARES ",
+   "calle": "GERICO AGUSTIN(MOSEN), 5",
+   "observaciones": "Desde las 8 hasta las 18 horas",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8745471760481286,
+     41.63553090035991
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31592,
+   "title": "CALLE MANUEL LASALA ",
+   "calle": "LASALA  MANUEL, 6",
+   "motivo": "Continuando con las obras del Río Huerva (Lote 1) y para sustituir el colector de saneamiento",
+   "observaciones": "Se cortará la vía entre las calles San Juan de la Cruz y Cosme Blasco, quedando en fondo de saco y doble sentido de circulación desde esta última para el badén del nº 2. Se prohibirá el estacionamiento en todo el tramo.",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-12-23T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8907503648846102,
+     41.6401772841557
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 30568,
+   "title": "CALLE JAIME FERRÁN ",
+   "calle": "FERRAN  JAIME, 9",
+   "motivo": "Continuando con la canalización eléctrica",
+   "observaciones": "Se ocupa el carril izquierdo de circulación entre el no 8 y el no 14 (OBRAMAT), sentido Albert Einstein, cruzando el acceso y la salida de la Calle Alejandro Volta por fases y garantizando todos los movimientos permitidos en el cruce. Se mantiene prohibido el estacionamiento en todo el rehundido de la mediana ubicado frente al no 8.",
+   "inicio": "2026-08-24T00:00:00",
+   "fin": "2026-11-27T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8627029478456477,
+     41.667600600641784
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31593,
+   "title": "PLAZA EUROPA",
+   "calle": "EUROPA PL, 0",
+   "motivo": "Para la instalación de la iluminación navideña, y supeditado al Permiso Especial de Policía Local",
+   "observaciones": "El 9 de noviembre a las 22:00 horas al 10 de noviembre a las 07:00 horas, se ocupará el carril bici y el carril de circulación anexo al perímetro de la rotonda.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8923903267231875,
+     41.659117917175344
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31594,
+   "title": "PASEO DE LA RIBERA",
+   "calle": "RIBERA  PASEO DE LA, 3",
+   "motivo": "Para la instalación de la iluminación navideña, y supeditado al Permiso Especial de Policía Local",
+   "observaciones": "Entre las 20:00 y las 05:00 horas, se cortará el carril bici y se ocupará\r\nparcialmente tanto la acera como la calzada a la altura del Puente de Piedra, garantizando el paso del tráfico rodado y peatonal en todo momento.\r\nAdemás, entre las 02:00 y las 5:00 horas, se cortará el PUENTE DE PIEDRA.\r\nLa actuación se coordinará con AVANZA.",
+   "inicio": "2026-11-11T00:00:00",
+   "fin": "2026-11-12T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8767274814646003,
+     41.65875080352331
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31577,
+   "title": "C/ FRANCO Y LÓPEZ",
+   "calle": "FRANCO Y LOPEZ, 3",
+   "tramo": " Entre C/ Duquesa Villahermosa y C/ Lucas Gallego ",
+   "observaciones": "Desde las 10 hasta las 12 horas",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9002438910190007,
+     41.64525107501547
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31580,
+   "title": "C/ JUAN PABLO BONET, NÚMEROS PARES",
+   "calle": "BONET  JUAN PABLO, 16",
+   "tramo": "Entre C/ Dr. Lozano Monzón y C/ Vasconia",
+   "observaciones": "Desde las 8 hasta las 18 horas",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8882868251226249,
+     41.64053972820777
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 30876,
+   "title": "CALLE PEDRO CERBUNA",
+   "calle": "CERBUNA  PEDRO, 5",
+   "motivo": "Continuando con las obras para su renovación integral",
+   "observaciones": "Se cortará el tramo entre la Plaza San Francisco y Menéndez Pelayo, manteniendo\r\nel corte existente entre esta última y Corona de Aragón. Se garantizará el acceso y salida de la Universidad por Plaza San Francisco. La calle Menéndez Pelayo queda en fondo de saco y doble sentido de circulación para el acceso a fincas, prohibiendo el  estacionamiento en el lado impar entre San Antonio María Claret y el velador ubicado en el n.o 6, y en el lado par entre el n.o 6 y Pedro Cerbuna, excepto RPMR.",
+   "inicio": "2026-09-16T00:00:00",
+   "fin": "2027-02-18T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8967192590394443,
+     41.641083034798655
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31471,
+   "title": "CALLE TOMÁS BRETÓN ",
+   "calle": "BRETON TOMAS(MAESTRO), 9",
+   "motivo": "Continuando con las obras de la Avenida Valencia y para continuar la renovación de servicios",
+   "observaciones": "Se irá modificando el trazado entre las calles Maestro Serrano y García Sánchez garantizando en todo momento el paso del tráfico rodado, incluso bus, por un carril de circulación.",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-11-26T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8946494677084159,
+     41.64387971283679
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31364,
+   "title": "CALLE LA PAZ",
+   "calle": "PAZ, 3",
+   "motivo": "Para reparar el vertido a la altura del no 3",
+   "observaciones": "Se cortará la calle desviando el tráfico por la Calle Bolonia. La vía quedará en\r\nfondo de saco y doble sentido de circulación para el acceso de garajes tanto desde Paseo Sagasta como desde la Calle Héroes del Silencio, prohibiendo el estacionamiento en dicho tramo (excepto la RPMR que también podrá acceder desde Héroes del Silencio).",
+   "inicio": "2026-10-26T00:00:00",
+   "fin": "2026-11-11T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8853182459812977,
+     41.6426418765391
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31534,
+   "title": "AVENIDA SAN JOSE",
+   "calle": "SAN JOSE  AVENIDA DE, 5",
+   "motivo": "Para la instalación de adornos navideños en el tramo entre las Avenidas del Tenor Fleta y de Cesareo Alierta",
+   "observaciones": "El 5, 6 y 9 de noviembre en horario de 07:30 a 15:30 horas, será necesario ocupar el sentido Cesáreo Alierta (carril bus) desviando las líneas afectadas en coordinación con AVANZA, y el carril derecho de circulación en el sentido contrario.",
+   "inicio": "2026-11-05T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.872289187209122,
+     41.645591906684885
+    ]
+   },
+   "tipo": {
+    "id": 5,
+    "title": "Afecciones al Transporte Público",
+    "pubDate": "2012-03-20T14:16:12"
+   }
+  },
+  {
+   "id": 30666,
+   "title": "CALLE VISTABELLA",
+   "calle": "VISTABELLA        MRL, 47",
+   "motivo": "Dentro del Proyecto de Urbanización del Área F-56-2 y para la renovación de aceras y calzada",
+   "observaciones": "Se ocupará la vía entre las calles Palmeras y Manuel Clavo, quedando en fondo de saco y doble sentido de circulación los tramos de las calles del Paraíso, de la Marina y de la Paloma desde la Calle Mayor. En estos tres tramos se prohibirán 10 metros de\r\nestacionamiento próximos tanto a la Calle Vistabella como a la Calle Mayor para facilitar el cambio de sentido en los mismos. Se mantiene invertido el sentido de circulación del tramo de la Calle Paraíso comprendido entre la Calle Mayor y la Calle de los Olivos.\r\nAdemás, del 14 al 17 de octubre, se ocupará el carril de circulación sentido Camino del Pilón entre las calles de la Merced y de la Rosa, quedando esta última en fondo de saco y doble sentido de circulación desde la Calle Mayor (prohibiendo 10 metros de estacionamiento próximos a Vistabella para facilitar el cambio de sentido). El carril libre quedará en doble sentido de circulación para los badenes de la calle Manuel Calvo y se desviará al resto del tráfico procedente de la Calle Vistabella por la Calle Antonio Layus.",
+   "inicio": "2026-09-01T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9423830977585049,
+     41.66098329169409
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31591,
+   "title": "PEDRO DE ALVARADO",
+   "calle": "ALVARADO  PEDRO DE, 1",
+   "motivo": "Para la reforma de la calle y de las viviendas",
+   "observaciones": "Se mantiene cortada la calle en su totalidad",
+   "inicio": "2025-07-09T00:00:00",
+   "fin": "2027-02-26T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8675977323584638,
+     41.65207688498664
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31537,
+   "title": "CALLE GUILLERMO FATÁS",
+   "calle": "FATAS CABEZA  G  SIS, 26",
+   "motivo": "Para realizar una nueva acometida de vertido",
+   "observaciones": "Se ocupará parcialmente tanto la acera (garantizando el tránsito peatonal) como la calzada a la altura del paso de peatones próximo a la Calle Brazal Candala, prohibiendo el estacionamiento entre los números 26 y 32 para garatizar el paso del tráfico rodado en todo momento. También se prohibirán 10 metros frente al nº\r\n32 para ubicar el material de obra",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-19T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8330567080176192,
+     41.67106290200324
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 30805,
+   "title": "CALLE DOCTOR IRANZO",
+   "calle": "IRANZO (DOCTOR), 13",
+   "motivo": "Para las obras de la reforma integral de la vía (plazo de ejecución, 12 meses)",
+   "observaciones": "Desde el 14 de septiembre a las 9:30 horas y durante seis meses, se cortará al tráfico rodado el tramo comprendido entre la Calle Cardenal Cisneros (incluyendo su cruce) y la Avenida Compromiso de Caspe. En esta última se ocupará uno de los dos carriles de circulación, por lo que también habrá que reducir a un único carril los tramos que acceden al cruce tanto desde Doctor Iranzo como desde Compromiso de Caspe. Quedarán en fondo de saco y doble sentido de circulación: los dos tramos de Batalla de Lepanto entre la vía y las calles Monasterio de Veruela y Gascón y Marín, el tramo de Cardenal Cisneros entre la vía y Camino Fillas, y el tramo de Doctor Iranzo entre Tomás Higuera y Cardenal Cisneros. Además, invertirán su sentido de circulación: el tramo de Camino Fillas entre Cardenal\r\nCisneros y Batalla de Lepanto, la Calle Gascón y Marín, y el tramo de Tomás Higuera entre Fray Luis Urbano y María de Aragón.\r\nSe prohibirá estacionar en: \r\n*BATALLA LEPANTO: del nº 33 a Dr. Iranzo ambos lados (para material de obra), 20 metros en el no 35 para desplazar carga y descarga, 10 metros frente al badén B-4549 para dar la vuelta, 15 metros en el n.o 29 y 10 metros en frente (para desplazar RPMR frente al 42 de Iranzo y para dar la vuelta)\r\n*GASCÓN Y MARÍN: de Batalla de Lepanto a Compromiso Caspe ( solo para inversión de calle). \r\n*DOCTOR IRANZO: 15 m. en el n.o 52 (reducción 1 carril), de Com. de Caspe a C. Cisneros (ambos lados) y 10 metros lado impar junto a Cisneros e Higuera (para los cruce de vehículos). *COMPROMISO DE CASPE: 10 metros en el n.o 48 (reducción 1 carril), 15 metros del n.o 54 al n.o 56 para desplazar la carga y descarga de Iranzo 48 y 10 metros frente al no 54 para desplazar la RPMR de Iranzo 52.\r\n*CARDENAL CISNEROS: junto a Iranzo 15 metros lado par y 10 metros desde velador en lado impar (para dar la vuelta).\r\n* CAMINO DE FILLAS, de De Cisneros a Lepanto (solo para inversión).\r\n*TOMÁS HIGUERA: de Fray Luis Urbano a María de Aragón (solo para inversión de calle) y, para las nuevas paradas de la línea 44.\r\nEn: ECHEGARAY Y CABALLERO sentido Ronda Hispanidad: 20 metros tras Dr. Iranzo y en\r\nFRAY LUIS URBANO desde Batalla de Lepanto hasta n.o 56 (incluso contenedores).\r\nSe coordina con AVANZA el desvío de la línea afectada.\r\nPor las modificaciones a realizar en los semáforos de Compromiso de Caspe, será necesaria la\r\npresencia de Policía Local.",
+   "inicio": "2026-09-14T00:00:00",
+   "fin": "2027-08-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8649048453590371,
+     41.64267616377584
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31557,
+   "title": "CALLE FRAY JOSÉ CASANOVA ",
+   "calle": "CASANOVA  JOSE (FRAY), 5",
+   "motivo": "Para realizar una canalización eléctrica",
+   "observaciones": "Se realizará un cruce de calzada a la altura de Avenida Ciudad de Soria por fases, manteniendo prohibidos 25 metros de estacionamiento a ambos lados para garantizar en todo momento un carril de circulación en ambos sentidos. Cuando se afecte al sentido hacia Puerta de Sancho, se cortará el carril bici y se ocupará además el carril derecho de la Avenida Ciudad de Soria sentido Avenida de la Expo 2008 para facilitar el giro de los autobuses.\r\nLa actuación se coordina con AVANZA.",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9043729285989502,
+     41.65576501154804
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31475,
+   "title": "CALLE SIXTO CELORRIO ",
+   "calle": "CELORRIO  SIXTO, 11",
+   "motivo": "Continuando con las obras del proyecto de renovación del Parque Tío Jorge y como primera fase para renovar un ramal de saneamiento que cruza la vía ",
+   "tramo": "A la altura de Valle de Zuriza",
+   "observaciones": "Se cortará el carril sentido Plaza San Gregorio desviando al tráfico por Valle de Zuriza, Sobrarbe y Pano y Ruata. El carril en sentido contrario no tendrá afecciones en esta fase. Se coordinará con AVANZA el paso del bus.",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8757193744377758,
+     41.65927308363531
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31425,
+   "title": "AVENIDA JOSÉ ANSELMO CLAVÉ",
+   "calle": "CLAVE  JOSE ANSELMO, 5",
+   "motivo": "Continuando con las obras del Proyecto de Urbanización G-19-1 (entorno antigua Estación del Portillo)",
+   "observaciones": "Se cortará la circulación entre el Paseo Escrivá de Balaguer y la Calle Mayandía. Se habilitará un carril de circulación para dirigir al tráfico que procedente de Escrivá de Balaguer hacia el Paseo María Agustín. Deberá desplazarse unos metros el paso de peatones que cruza Escrivá de Balaguer en dicho cruce.\r\nSerá necesaria la presencia de Policía Local por la modificación de las regulación semafórica en el cruce afectado.\r\nTambién, para realizar trabajos de media tensión y durante dos semanas, se ocupará la acera de Paseo María Agustín a la altura de la Calle Santiago Lanzuela, por tanto, se habilitará un pasillo peatonal en el carril derecho (sentido Plaza Europa), liberando el carril izquierdo, ahora ocupado, para garantizar los dos carriles de circulación existentes.\r\nAdemás, desde el viernes 30 de octubre, se cerrará al tráfico peatonal la acera de Clavé del lado de los números pares (anexa al nuevo parque) desde Caixa Forum hasta la Glorieta de los Zagríes, desviando a los peatones por la acera contraria.",
+   "inicio": "2026-10-28T00:00:00",
+   "fin": "2026-12-28T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8931607925496873,
+     41.6531048445539
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31567,
+   "title": "ESTACIONAMIENTO CDM SIGLO XXI (AVENIDA JOSÉ ATARES)",
+   "calle": "JOSÉ ATARÉS, 105",
+   "motivo": "Para la instalación de placas fotovoltaicas (Planta solar lote 1)",
+   "observaciones": "Se ocupará la zona del estacionamiento en superficie ubicado en la Avenida de José Atarés, entre el CDM Siglo XXI y el IES Miguel de Molinos, prohibiendo el estacionamiento en la misma, dejando libre la zona ubicada en la misma dirección paralela a la avenida.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8999771525745934,
+     41.672372935421585
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31568,
+   "title": "CALLE PALENCIA",
+   "calle": "PALENCIA, 8",
+   "motivo": "Para instalar una planta solar fotovoltaica (lote 4)",
+   "observaciones": "Se ocupará el estacionamiento de autobuses ubicado entre las calles Palencia y Arquitecto la Figuera, prohibiendo el estacionamiento en el mismo.\r\nPara facilitar la bajada y subida de viajeros a los buses se reservarán en la Avenida de los Pirineos 4 plazas de aparcamiento en el sentido salida ciudad, previas a la Calle Gracia Gazulla, y 8 plazas de aparcammiento en el sentido entrada ciudad frente a la misma calle.",
+   "inicio": "2026-11-12T00:00:00",
+   "fin": "2026-12-18T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.879416224460133,
+     41.66119791925654
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31569,
+   "title": "C/ LASTANOSA, LADO PARES",
+   "calle": "LASTANOSA, 8",
+   "tramo": "Entre C/Rioja y C/ Julián Ribera, ",
+   "observaciones": "Desde las 8 hasta las 18 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9080603731939607,
+     41.653165705141134
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31571,
+   "title": " C/ CONTINENTE DE ASIA ",
+   "calle": "ASIA  CONTINENTE, 9",
+   "observaciones": "Desde las 8 hasta las 16 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8738524875600914,
+     41.67857578172475
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31479,
+   "title": "CALLE LEOPOLDO ROMEO ",
+   "calle": "ROMEO  LEOPOLDO, 9",
+   "motivo": "Continuando con la canalización eléctrica",
+   "observaciones": "Se cruzará la calzada a la altura de la Calle Sancho Arroyo por tramos, habilitando el paso del tráfico rodado por parte de la acera del lado de los números pares (cuñas y new jersey), para garantizar paso en todo momento. (El estacionamiento ya se encuentra prohibido)",
+   "inicio": "2026-11-04T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8633125423862488,
+     41.646665495073115
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 30596,
+   "title": "CALLE ALBARDÍN (Polígono Empresarium La Cartuja Baja) ",
+   "calle": "ALBARDIN          CRT, 6",
+   "motivo": "Para realizar una cámara en la ya finalizada red de abastecimiento para el Centro de Datos de Amazon",
+   "observaciones": "Se mantendrá ocupado el carril derecho de circulación hacia Calle Acebo entre los pasos inferiores del ferrocarril, garantizando el paso del tráfico rodado en ambos sentidos de circulación.",
+   "inicio": "2026-08-22T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8128034649152251,
+     41.5887232902407
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31114,
+   "title": "CALLE CONSEJO DE CIENTO",
+   "calle": "CONSEJO DE CIENTO, 11",
+   "motivo": "Para la ejecución de orejetas y un paso de peatones",
+   "observaciones": "Se ocuparán parcial y alternativamente las aceras y la calzada junto a estas en ambos lados del tramo entre los números 24 y 36. Para la realización de los trabajos y la colocación de maquinaria y material auxiliar de obra se prohibirá el estacionamiento entre dichos números y entre el badén del n.o 23 y los contenedores de residuos situados frente al n.o 36.",
+   "inicio": "2026-10-02T00:00:00",
+   "fin": "2026-11-16T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8738583636976488,
+     41.62745897030655
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31451,
+   "title": "CALLE CUARTA AVENIDA",
+   "calle": "CUARTA AVENIDA, 46",
+   "motivo": "Para la reconstrucción de orejetas en el paso de peatones a la altura del nº 46",
+   "observaciones": "Se ocuparán parcialmente tanto las aceras como la calzada garantizando tanto el\r\ntránsito peatonal como todos los movimientos permitidos para el tráfico rodado (incluso bus). Continúa la prohibición de estacionamiento 10 metros junto al nº 44, y 20 metros en la Calle San Eugenio (próximos a la Avenida)",
+   "inicio": "2026-10-28T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8782282537265452,
+     41.62468374843991
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31566,
+   "title": "CALLE ORENSE",
+   "calle": "ORENSE, 8",
+   "motivo": "Para realizar una nueva acometida de vertido en el n.o 8",
+   "observaciones": "Se ocupará la acera y parcialmente la calzada. Se garantizará tanto el tránsito peatonal (bien por la acera bien por la calzada habilitando un pasillo peatonal, según el avance de las obras) como el de vehículos. Para facilitar el paso del tráfico rodado se prohibirá el estacionamiento entre los números 1 y 9-11-13.\r\nPara la colocación de maquinaria y material auxiliar de obra se prohibirán 10 m de estacionamiento a la altura del n.o 80 de la Avenida América.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-12T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8861108016226314,
+     41.62740453053547
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31578,
+   "title": "C/ DUQUESA VILLAHERMOSA 33",
+   "calle": "VILLAHERMOSA(DUQUESA), 33",
+   "observaciones": "Desde las 10 hasta las 12 horas",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9021438936886932,
+     41.648044128188005
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31474,
+   "title": "RONDA HISPANIDAD ",
+   "calle": "HISPANIDAD  RONDA, 10",
+   "motivo": "Para reparar las juntas de dilatación ",
+   "tramo": "Puentes sobre la A2 y sobre el ferrocarril (sobre Calle Escatrón)",
+   "observaciones": "De 08:00 a 18:00 horas, se irá ocupando la calzada (en ambos sentidos), garantizando en todo momento un carril de circulación en cada sentido. (Durante los días 7 y 8 no habrá ocupación en calzada pero el material de obra se ubicará en la mediana).",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9023181658679944,
+     41.630561844389355
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31536,
+   "title": "CALLE PEDRO CERBUNA",
+   "calle": "CERBUNA  PEDRO, 5",
+   "motivo": "Continuando con las obras para su renovación integral",
+   "observaciones": "Se cortará el tramo en la Plaza San Francisco que afecta a la entrada a la Universidad desde la Calle Arzobispo Apaolaza, habilitando dicha entrada en sentido contrario por el carril libre de la Plaza (señalizando prioridad de paso con respecto a la salida del badén 3570). Para facilitar la salida de la Universidad por Domingo Miral, el 6 de noviembre a las 09:30 horas, se restablecerá la circulación habitual por la Calle San Francisco de Borja, recuperando un único sentido de circulación, siendo necesaria la colaboración de Policía Local por afectar a los semáforos del cruce con Violante de Hungría.\r\nSerá necesario prohibir el estacionamiento en toda la Calle San Francisco de Borja excepto motos y bicis (para restablecer de madrugada la señalización horizontal original) y en los números 13, 14 y 15 de la Plaza San Francisco (sin afectar a la estación bici).\r\nLa actuación se coordina con la Universidad de Zaragoza.",
+   "inicio": "2026-11-06T00:00:00",
+   "fin": "2027-01-29T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8967192590394443,
+     41.641083034798655
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 30944,
+   "title": "AVENIDA ALCALDE CABALLERO",
+   "calle": "CABALLERO FCO(ALCALDE, 52",
+   "motivo": "Para ejecutar los pilares de las marquesinas donde se instalarán las placas fotovoltaicas (Planta solar lote 3) entre la Calle Pedro Lázaro y la Avenida de la Jota",
+   "observaciones": "Se ocupará el aparcamiento existente paralelo a la Ronda Hispanidad, prohibiendo el estacionamiento en el mismo, así como la zona de tierra ubicada al final del mismo y el estacionamiento en batería junto a la misma.",
+   "inicio": "2026-09-19T00:00:00",
+   "fin": "2026-11-18T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8610583645753989,
+     41.670975031486606
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31506,
+   "title": "CAMINO VIEJO ALFOCEA (JUSLIBOL)",
+   "calle": "ALFOCEA CAMINO DE MNZ, 4",
+   "motivo": "Para reparar una toma de agua a la altura de la Calle Castelar",
+   "observaciones": "Entre las 08:00 y las 18:00 horas, se ocupará el carril de circulación sentido Calle Zaragoza, garantizando todos los movimientos permitidos en el cruce mediante personal auxiliar.",
+   "inicio": "2026-11-05T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9653409967709726,
+     41.702039603869174
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31595,
+   "title": "CALLE CADENA",
+   "calle": "CADENA, 5",
+   "motivo": "Para reparar el vertido",
+   "observaciones": "Se cortará la calle a la altura del no 5, prohibiendo el estacionamiento en toda la vía que quedará en fondo de saco y doble sentido de circulación desde el Coso para el badén afectado.",
+   "inicio": "2026-11-12T00:00:00",
+   "fin": "2026-11-16T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8754426010443473,
+     41.65033743790711
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31507,
+   "title": "CALLE TABOADA",
+   "calle": "TABOADA  EDUARDO JES., 11",
+   "motivo": "Para renovar la tubería de abastecimiento",
+   "observaciones": "Se cruzará la calzada a la altura del no 17 por fases garantizando el paso del tráfico rodado en todo momento y se ocuparán las aceras hasta la Calle Acubierre habilitando, si fuera necesario, un pasillo peatonal por la zona de estacionamiento. Para ello se prohibirá el estacionamiento en ambos lados entre el Paseo Echegaray y Caballero y el no 15.\r\nAdemás, para ubicar el material de obra y hasta el 23 de diciembre, también se prohibirá el estacionamiento en la Calle Jerónimo Vicens (lado par entre López Abadía y Obispo Librana) y en la Calle Obispo Librana (lado izquierdo según el sentido de circulación entre las calles Taboada y Jenónimo Vicens).",
+   "inicio": "2026-11-05T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8673239907215017,
+     41.65212619978575
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31003,
+   "title": "CALLE BLANCO CORDERO",
+   "calle": "BLANCO CORDERO (DR.), 11",
+   "motivo": "Continuando con la rehabilitación del grupo de viviendas Aloy Salas y para realizar una canalización eléctrica entre las calles López Abadía y Félix Rodriguez de la Fuente",
+   "observaciones": "Se ocupará la zona de estacionamiento del lado impar y parcialmente la\r\ncalzada, prohibiendo el estacionamiento en ambos lados del tramo para garantizar el paso del tráfico rodado.",
+   "inicio": "2026-09-25T00:00:00",
+   "fin": "2026-11-27T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8680137472773933,
+     41.65223943112013
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31144,
+   "title": "CALLE ENMEDIO (PEÑAFLOR)",
+   "calle": "ENMEDIO           PÑF, 2",
+   "motivo": "Para renovar el colector de saneamiento entre la Plaza de España y la Calle del Paso",
+   "observaciones": "Desde el 5 de octubre y durante 5 semanas, se ocupará el tramo de vía así como el tramo de la Plaza de España entre el no 10 y la Calle Enmedio. Además del 5 de octubre al 9 de octubre a las 18:00 horas, también se ocupará el cruce con la\r\nCalle del Paso, quedando dicha vía en fondo de saco tanto desde la calle La Cruz como desde la Plaza del Carmen.\r\nSe prohibirá el estacionamiento en toda la Plaza de España.",
+   "inicio": "2026-10-05T00:00:00",
+   "fin": "2026-11-27T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7982714967804057,
+     41.76154447356678
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31148,
+   "title": "PASEO MARÍA AGUSTÍN",
+   "calle": "AGUSTIN  PASEO MARIA, 13",
+   "motivo": "Continuando con las obras del Proyecto de Urbanización G-19-1 (entorno antigua Estación del Portillo)",
+   "observaciones": "Desde el 9 de octubre a las 09:30, se cortará la circulación hacia Clavé (sentido sur) desde el cruce con Escrivá de Balaguer, por tanto, el carril central podrá dirigirse tanto hacia esta última como continuar por Paseo María Agustín hacia la Puerta del Carmen. La circulación de Escrivá de Balaguer sentido entrada ciudad, continuará realizando la ruta Clavé-Mayandía para acceder a ambos sentidos del Paseo María Agustín. Además, se abrirá la Calle Sacramento que también deberá realizar la ruta Clavé-Mayandía para acceder a ambos sentidos del Paseo María Agustín. No se verá afectada la circulación de Paseo María Agustín sentido norte, pudiendo dirigirse tanto hacia Escrivá de Balaguer como hacia la Plaza de Europa.\r\nDurante las Fiestas del Pilar, se habilitarán trayectos peatonales desde la Calle General Mayandía bien para atravesar el futuro parque y acceder a Escoriaza y Fabro a la altura de la nueva estación del Portillo o bien para llegar hasta la Glorieta de los Zagríes por la semicalzada sentido Avenida Goya. También se realizará un acceso peatonal desde el paso de peatones que atraviesa el Paseo Escrivá de Balaguer a la altura de la Calle Trovador para acceder a Escoriaza y Fabro atravesando el futuro parque.\r\nSerá necesaria la presencia de Policía L ocal por la modificación en las regulación semafórica de los cruces afectados y por la afección prevista al tráfico.",
+   "inicio": "2026-10-09T00:00:00",
+   "fin": "2026-11-30T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.889182812057561,
+     41.65031066119999
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31559,
+   "title": "CALLE TOMÁS ZUMALACÁRREGUI",
+   "calle": "ZUMALACARREGUI  TOMAS, 13",
+   "motivo": "Para realizar una canalización eléctrica en el no 30",
+   "observaciones": "Se ocupará la acera (desviando a los peatones por la opuesta a través de los pasos provisionales existentes) y parcialmente la calzada, prohibiendo el estacionamiento entre los números 31 y 37 para garantizar el paso del tráfico en todo momento.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8877549888848567,
+     41.64340337207812
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31560,
+   "title": "CALLE RÍO GÁLLEGO",
+   "calle": "GALLEGO  RIO      PÑF, 11",
+   "motivo": "Continuando con el Proyecto de urbanización F-71-7",
+   "observaciones": "Se cruzará la calzada a la altura del no 4, garantizando el paso del tráfico en ambos sentidos de circulación mediante señalización vertical de prioridad de paso.\r\nAdemás y hasta el 31 de marzo de 2027, se ocupará la acera del lado impar entre el C.P. Juan Pablo Bonet y el Camino Jarandín (desviando a los peatones por la acera opuesta) y la zona de estacionamiento adyacente (prohibiéndolo).",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7987979185862615,
+     41.76091746819078
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31234,
+   "title": "CALLE D (MALPICA)",
+   "calle": "MALPICA II (CALLE D), 0",
+   "motivo": "Para la reparación de vertido entre las parcelas 76 (Chatarras Ostariz Frago) y 76A (Mármoles y granitos Marpa)",
+   "observaciones": "Se ocupa la semicalzada sentido Calle B, habilitando mediante barreras new jersey en la semicalzada libre, un carril en cada sentido de circulación.\r\nAdemás, desde el 10 de noviembre hasta el 4 de diciembre, se cortará la Calle E, a la altura de la Calle D, quedando en fondo de saco desde la Calle B.",
+   "inicio": "2026-10-19T00:00:00",
+   "fin": "2026-12-04T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.7901447811657989,
+     41.65497296707989
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31235,
+   "title": "CALLE JUAN JOSÉ LORENTE",
+   "calle": "LORENTE  JUAN JOSE, 1",
+   "motivo": "Continuando con las obras de la Avenida Valencia y para realizar la conexión de servicios",
+   "observaciones": "Se ocupará parcialmente la calzada entre el no 3 de la vía y el no 13 de Fueros de Aragón por fases, prohibiendo el estacionamiento en el tramo para garantizar en todo momento el paso del tráfico rodado. Se señalizarán dos nuevos pasos de peatones en los extremos de la ocupación.",
+   "inicio": "2026-10-21T00:00:00",
+   "fin": "2026-11-23T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8949963653845895,
+     41.6467319389477
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31561,
+   "title": "CAMINO DEL PILÓN",
+   "calle": "PILON  CN. EL     MRL, 19",
+   "motivo": "Para renovar el sumidero corrido ubicado entre el Anillo Verde y la Calle Íñigo Manuel Marín Sancho",
+   "observaciones": "Entre las 08:00 y las 15:00 horas, se ocupará la calzada por fases garantizando el paso del tráfico (incluso bus) en ambos sentidos de circulación mediante señalistas.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.925495709699736,
+     41.65857562259019
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31563,
+   "title": "CALLE TOMAS EDISON",
+   "calle": "EDISON  TOMAS A, 8",
+   "motivo": "Para realizar una nueva acometida de vertido a la altura del no 8",
+   "observaciones": "Se ocupará la acera habilitando un pasillo peatonal protegido por el carril derecho de circulación, garantizando el acceso del tráfico rodado a la Calle Jaime Ferrán",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-24T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8627082085462133,
+     41.665155904542
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31562,
+   "title": "AVENIDA D E MADRID",
+   "calle": "MADRID  AVENIDA DE, 9",
+   "motivo": "Continuando con la canalización eléctrica y como segunda fase",
+   "observaciones": "Se realizará un cruce de calzada a la altura de Plaza Ciudadanía (frente al Palacio de la Aljafería sentido Paseo María Agustín) por tramos, cortando el carril bici y garantizando dos carriles de circulación en todo momento. Deberá ocuparse el carril derecho de la rotonda entre la entrada y salida de Escrivá de Balaguer para reducir a dos los carriles que acceden a la Avenida.\r\nDesde el 7 de noviembre, quedan habilitados los dos carriles que acceden a la Plaza de Ciudanía desde la Avenida mediante chapones debidamente anclados y que deben ser revisados por la empresa que está realizando la obra durante el fin de semana.\r\nLa actuación se coordina con AVANZA y el Consorcio de Transportes.",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8945115616672227,
+     41.65572717575124
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31570,
+   "title": "C/ CONTINENTE DE OCEANÍA",
+   "calle": "OCEANIA  CONTINENTE, 13",
+   "observaciones": "Desde las 8 hasta las 16 horas",
+   "inicio": "2026-11-09T00:00:00",
+   "fin": "2026-11-09T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8747236865353156,
+     41.67840854153707
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  },
+  {
+   "id": 31476,
+   "title": "AVENIDA PUERTA SANCHO ",
+   "calle": "PUERTA DE SANCHO  AV., 9",
+   "motivo": "Para recrecer la parada del bus",
+   "tramo": "A la altura del nº 9, del 3 al 20 de noviembre",
+   "observaciones": "Entre las 08:00 y las 15:30, se ocupará el carril derecho de circulación sentido Fray José Casanova, garantizando el paso del tráfico por el carril libre. La actuación se coordina con AVANZA.",
+   "inicio": "2026-11-03T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9032948033366739,
+     41.659573256608084
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31384,
+   "title": "CALLE MOLINO DE LAS ARMAS",
+   "calle": "MOLINO DE LAS ARMAS, 46",
+   "motivo": "Para la reparación de avería en el n.o 46",
+   "observaciones": "Es necesario ocupar la calzada y la acera. Se habilitará paso protegido por la calzada de los peatones. Se prohíbe estacionar desde el n.o 46 hasta la calle Marques de la Cadena 25 m. (lado n.o pares) y 35 m en el lado opuesto para el garantizar el paso de los vehículos (10 m. a partir del badén para desplazar las RPMR).",
+   "inicio": "2026-10-26T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8636435295955098,
+     41.660951277808415
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31271,
+   "title": "CALLE VISTABELLA",
+   "calle": "VISTABELLA        MRL, 53",
+   "motivo": "Dentro del Proyecto de Urbanización del Área F-56-2 y para la renovación de aceras y calzada",
+   "observaciones": "Del 1 de septiembre al 20 de noviembre, se mantiene ocupada la vía entre las calles Palmeras y Manuel Clavo, quedando en fondo de saco y doble sentido de circulación los tramos de las calles del Paraíso, de la Marina y de la Paloma desde la Calle Mayor. En estos tres tramos se mantienen prohibidos 10 metros de estacionamiento próximos tanto a la Calle Vistabella como a la Calle Mayor para facilitar el cambio de sentido en los mismos. Se mantiene invertido el sentido de circulación del tramo de la Calle Paraíso comprendido entre la Calle Mayor y la Calle de los Olivos.\r\nAdemás, del 14 de octubre al 20 de noviembre, se ocupa el carril de circulación\r\nsentido Camino del Pilón entre las calles de la Merced y de la Rosa, quedando esta última en fondo de saco y doble sentido de circulación desde la Calle Mayor (prohibiendo 10 metros de estacionamiento próximos a Vistabella para facilitar el cambio de sentido). El carril libre quedará en doble sentido de circulación para los badenes de la calle Manuel Calvo y se desviará al resto del tráfico procedente de la Calle Vistabella por la Calle Antonio Layus.\r\nTambién, entre el 19 de octubre y el 20 de noviembre, para ejecutar la conexión de\r\nabastecimiento, continúa el corte de calle entre la calle Las Palmeras y la carretera de Aeropuerto, y el corte de la calle Las Palmeras entre calle los Olivos y Vistabella.",
+   "inicio": "2026-10-18T00:00:00",
+   "fin": "2026-11-20T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9426146878270633,
+     41.66105390919279
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31465,
+   "title": "CALLE MARÍA GUERRERO ",
+   "calle": "GUERRERO  MARIA, 13",
+   "motivo": "Continuando con la reparación de la fuga de agua que comenzó con carácter de urgencia.",
+   "tramo": "Frente al nº 22-24 ",
+   "observaciones": "Se cortará la vía quedando en fondo de saco y doble sentido de circulación para los badenes afectados tanto desde la Avenida Juan Carlos I como desde Escuelas Pías. Se mantendrá prohibido el estacionamiento entre el nº 18 y la Calle A¿ava (ambos lados), y se prohibirá: en todo el lado de los números impares de la calle, 10 metros en el nº 2-4, 10 metros en el nº 42 y en el lado de los números pares de la Calle Escuelas Pías entre María de Guerrero y Fernando Díaz de Mendoza.",
+   "inicio": "2026-10-28T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9098735103665896,
+     41.64352873195894
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31093,
+   "title": "AVENIDA VALENCIA",
+   "calle": "VALENCIA  AVENIDA DE, 9",
+   "motivo": "Continuando con las obras de la Avenida",
+   "observaciones": "Desde 1 de octubre a las 09:30 horas y durante 3 meses, se cortará el tráfico pasante desde calle Lérida hacia Fueros de Aragón, por tanto, el acceso a Calle Lérida desde Calle Burgos únicamente estará permitido para acceder a la gasolinera y a los badenes afectados del tramo de la Avenida que saldrán por la Calle Ávila. Se prohibirá el estacionamiento en la Calle Lérida. El acceso a la Calle Fueros de Aragón únicamente podrá realizarse desde la Calle Lorente.\r\nAdemás, desde el 1 de octubre y durante un mes, se trasladará al no 2 de la Calle Maestro José Serrano el paso de peatones que cruza dicha vía a la altura de la Calle \r\nBretón, siendo necesario prohibir 15 metros de estacionamiento (de Bretón al no 2).\r\nSerá necesaria la colaboración de Policía Local por la afección semafórica.",
+   "inicio": "2026-10-01T00:00:00",
+   "fin": "2026-12-31T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8947198531736783,
+     41.64711081540748
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   }
+  },
+  {
+   "id": 31565,
+   "title": "CALLE RODRIGO REBOLLEDO",
+   "calle": "REBOLLEDO  RODRIGO DE, 4",
+   "motivo": "Continuando con la canalización eléctrica",
+   "observaciones": "Se mantiene la ocupación del carril izquierdo de circulación a la altura del n.o 8, garantizando el paso del tráfico rodado, incluso bus, por el carril libre. También se ocupa la zona de estacionamiento y la acera a la altura del n.o 7-9 colocando palastros en la acera para facilitar el tránsito peatonal. Se mantiene la prohibición de\r\nestacionamiento entre los números 5 y 7-9.",
+   "inicio": "2026-11-07T00:00:00",
+   "fin": "2026-11-13T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8657024994475441,
+     41.64622269458865
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   }
+  },
+  {
+   "id": 31576,
+   "title": "JARDINES DE LISBOA N.º 2, 4 Y 6",
+   "calle": "LISBOA  JARDINES DE, 2",
+   "observaciones": " Desde las 10 hasta las 12 horas.",
+   "inicio": "2026-11-10T00:00:00",
+   "fin": "2026-11-10T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9048209564142525,
+     41.66162630869379
+    ]
+   },
+   "tipo": {
+    "id": 0,
+    "title": "Cortes de Agua"
+   }
+  }
+ ]
+}

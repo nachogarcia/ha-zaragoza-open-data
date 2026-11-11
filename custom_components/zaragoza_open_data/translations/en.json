@@ -1,0 +1,748 @@
+{
+  "title": "Zaragoza Open Data",
+  "config": {
+    "step": {
+      "user": {
+        "description": "Choose what to bring in from Zaragoza's open data. You can change this later in the options.",
+        "data": {
+          "kinds": "Data"
+        },
+        "data_description": {
+          "kinds": "Stops and stations are added afterwards, from the integration's entry."
+        }
+      }
+    },
+    "error": {
+      "no_kinds": "Tick at least one kind of data.",
+      "cannot_connect": "Can't reach the city's open data service or the Bizi operator. Try again in a few minutes."
+    },
+    "abort": {
+      "single_instance_allowed": "Zaragoza Open Data is already set up. Change it from its options."
+    }
+  },
+  "config_subentries": {
+    "tram_stop": {
+      "entry_type": "Tram stop",
+      "initiate_flow": {
+        "user": "Add tram stop"
+      },
+      "step": {
+        "user": {
+          "title": "Add tram stop",
+          "description": "Every platform, nearest first. Type to search by stop name or direction.",
+          "data": {
+            "stop": "Tram stop"
+          },
+          "data_description": {
+            "stop": "Each stop has one platform per direction."
+          }
+        },
+        "place": {
+          "title": "Near another place",
+          "description": "Drop the pin where the list should be measured from.",
+          "data": {
+            "location": "Place"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Can't reach the city's open data service. Wait a moment and submit to try again.",
+        "pick_from_list": "Pick a stop from the list."
+      },
+      "abort": {
+        "kind_disabled": "Tram is switched off. Turn it on in the integration's options first.",
+        "already_configured": "This tram stop is already added.",
+        "entry_not_loaded": "Zaragoza Open Data isn't running. Reload it, then try again."
+      }
+    },
+    "bus_stop": {
+      "entry_type": "Bus stop",
+      "initiate_flow": {
+        "user": "Add bus stop",
+        "reconfigure": "Change lines"
+      },
+      "step": {
+        "user": {
+          "title": "Add bus stop",
+          "description": "Every stop, nearest first. Type to search by stop number, street or line.",
+          "data": {
+            "stop": "Bus stop"
+          },
+          "data_description": {
+            "stop": "The number is on the stop's sign."
+          }
+        },
+        "place": {
+          "title": "Near another place",
+          "description": "Drop the pin where the list should be measured from.",
+          "data": {
+            "location": "Place"
+          }
+        },
+        "lines": {
+          "title": "Lines",
+          "description": "Tick the lines to show at this stop. With none ticked, every line is shown.",
+          "data": {
+            "lines": "Lines"
+          }
+        },
+        "reconfigure": {
+          "title": "Change lines",
+          "description": "Tick the lines to show at this stop. With none ticked, every line is shown.",
+          "data": {
+            "lines": "Lines"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Can't reach the city's open data service. Wait a moment and submit to try again.",
+        "pick_from_list": "Pick a stop from the list, or type its exact number."
+      },
+      "abort": {
+        "kind_disabled": "Bus is switched off. Turn it on in the integration's options first.",
+        "already_configured": "This bus stop is already added.",
+        "entry_not_loaded": "Zaragoza Open Data isn't running. Reload it, then try again.",
+        "cannot_connect": "Can't reach the city's open data service to list the stop's lines. Try again in a few minutes."
+      }
+    },
+    "bizi_station": {
+      "entry_type": "Bizi station",
+      "initiate_flow": {
+        "user": "Add Bizi station"
+      },
+      "step": {
+        "user": {
+          "title": "Add Bizi station",
+          "description": "Every station, nearest first. Type to search by station number or name.",
+          "data": {
+            "station": "Bizi station"
+          }
+        },
+        "place": {
+          "title": "Near another place",
+          "description": "Drop the pin where the list should be measured from.",
+          "data": {
+            "location": "Place"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Can't reach the Bizi operator or the city's open data service. Wait a moment and submit to try again.",
+        "pick_from_list": "Pick a station from the list, or type its exact number."
+      },
+      "abort": {
+        "kind_disabled": "Bizi bikes are switched off. Turn them on in the integration's options first.",
+        "already_configured": "This Bizi station is already added.",
+        "entry_not_loaded": "Zaragoza Open Data isn't running. Reload it, then try again."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "kinds": "Data",
+          "road_works_radius_km": "Road works: distance",
+          "road_works_centre": "Road works: measured from",
+          "road_works_categories": "Road works: categories",
+          "pharmacies_radius_km": "Pharmacies on duty: distance",
+          "pharmacies_centre": "Pharmacies on duty: measured from",
+          "air_station": "Air quality station"
+        },
+        "data_description": {
+          "road_works_radius_km": "0 shows the whole city.",
+          "road_works_centre": "Home, or another zone such as Work.",
+          "pharmacies_radius_km": "0 shows the whole city.",
+          "pharmacies_centre": "Home, or another zone such as Work.",
+          "air_station": "The sensors use this station's readings."
+        },
+        "sections": {
+          "refresh": {
+            "name": "Advanced: refresh intervals",
+            "description": "How often each source is asked. Each default is also the minimum: intervals can only be made longer.",
+            "data": {
+              "tram_s": "Tram",
+              "bus_s": "Bus",
+              "bike_s": "Bizi",
+              "road_works_min": "Road works",
+              "air_quality_min": "Air quality",
+              "pollen_h": "Pollen",
+              "pharmacies_h": "Pharmacies on duty"
+            },
+            "data_description": {
+              "tram_s": "60 seconds to 1 day.",
+              "bus_s": "60 seconds to 1 day.",
+              "bike_s": "120 seconds to 1 day.",
+              "road_works_min": "30 minutes to 1 day.",
+              "air_quality_min": "30 minutes to 1 day.",
+              "pollen_h": "6 hours to 7 days.",
+              "pharmacies_h": "6 hours to 7 days."
+            }
+          }
+        }
+      }
+    },
+    "error": {
+      "no_kinds": "Tick at least one kind of data.",
+      "refresh_below_minimum": "A refresh interval is shorter than its default. Intervals can only be made longer.",
+      "remove_stops_first": "A kind that still has stops or stations can't be switched off. Remove them from the integration's entry first."
+    }
+  },
+  "selector": {
+    "kind": {
+      "options": {
+        "tram": "Tram",
+        "bus": "Bus",
+        "bizi": "Bizi bikes",
+        "road_works": "Road works and closures",
+        "pharmacies": "Pharmacies on duty",
+        "air_quality": "Air quality",
+        "pollen": "Pollen"
+      }
+    },
+    "road_work_category": {
+      "options": {
+        "traffic_closure": "Traffic closure",
+        "water_cut": "Water cut",
+        "major_disruption": "Major disruption",
+        "public_transport_disruption": "Public transport disruption",
+        "maintenance": "Maintenance",
+        "other": "Other"
+      }
+    },
+    "air_station": {
+      "options": {
+        "nearest": "Nearest to home"
+      }
+    },
+    "stop_picker": {
+      "options": {
+        "near_place": "Near another place…"
+      }
+    }
+  },
+  "device": {
+    "road_works": {
+      "name": "Road works and closures"
+    },
+    "pharmacies": {
+      "name": "Pharmacies on duty"
+    },
+    "air_quality": {
+      "name": "Air quality"
+    },
+    "pollen": {
+      "name": "Pollen"
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "renting": {
+        "name": "Renting"
+      },
+      "returning": {
+        "name": "Returning"
+      }
+    },
+    "geo_location": {
+      "road_work": {
+        "state_attributes": {
+          "street": {
+            "name": "Street"
+          },
+          "reason": {
+            "name": "Reason"
+          },
+          "stretch": {
+            "name": "Stretch"
+          },
+          "detour": {
+            "name": "Detour"
+          },
+          "starts": {
+            "name": "From"
+          },
+          "ends": {
+            "name": "Until"
+          },
+          "category": {
+            "name": "Category",
+            "state": {
+              "traffic_closure": "Traffic closure",
+              "water_cut": "Water cut",
+              "major_disruption": "Major disruption",
+              "public_transport_disruption": "Public transport disruption",
+              "maintenance": "Maintenance",
+              "other": "Other"
+            }
+          }
+        }
+      },
+      "pharmacy": {
+        "state_attributes": {
+          "address": {
+            "name": "Address"
+          },
+          "phone": {
+            "name": "Phone"
+          },
+          "hours": {
+            "name": "Hours"
+          },
+          "sector": {
+            "name": "Sector"
+          },
+          "on_duty": {
+            "name": "On duty on"
+          },
+          "open_until": {
+            "name": "Open until"
+          },
+          "directions": {
+            "name": "Directions"
+          }
+        }
+      },
+      "air_station": {
+        "state_attributes": {
+          "index": {
+            "name": "Index",
+            "state": {
+              "good": "Good",
+              "fair": "Fair",
+              "moderate": "Moderate",
+              "poor": "Poor",
+              "very_poor": "Very poor",
+              "extremely_poor": "Extremely poor"
+            }
+          },
+          "no2": {
+            "name": "NO₂ (μg/m³)"
+          },
+          "no": {
+            "name": "NO (μg/m³)"
+          },
+          "o3": {
+            "name": "O₃ (μg/m³)"
+          },
+          "co": {
+            "name": "CO (mg/m³)"
+          },
+          "so2": {
+            "name": "SO₂ (μg/m³)"
+          },
+          "pm10": {
+            "name": "PM10 (μg/m³)"
+          },
+          "pm25": {
+            "name": "PM2.5 (μg/m³)"
+          },
+          "h2s": {
+            "name": "H₂S (μg/m³)"
+          },
+          "benzene": {
+            "name": "Benzene (μg/m³)"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      }
+    },
+    "sensor": {
+      "next_arrival": {
+        "name": "Next arrival",
+        "state_attributes": {
+          "line": {
+            "name": "Line"
+          },
+          "destination": {
+            "name": "Destination"
+          },
+          "arrivals": {
+            "name": "Arrivals"
+          },
+          "no_service": {
+            "name": "No service"
+          },
+          "source": {
+            "name": "Source",
+            "state": {
+              "avanza": "Operator (Avanza)",
+              "zaragoza_city": "City of Zaragoza"
+            }
+          },
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "directions": {
+            "name": "Directions"
+          }
+        }
+      },
+      "following_arrival": {
+        "name": "Following arrival",
+        "state_attributes": {
+          "line": {
+            "name": "Line"
+          },
+          "destination": {
+            "name": "Destination"
+          }
+        }
+      },
+      "minutes_to_next": {
+        "name": "Minutes to next",
+        "state_attributes": {
+          "following": {
+            "name": "Following (min)"
+          },
+          "arrivals": {
+            "name": "Arrivals"
+          }
+        }
+      },
+      "bikes": {
+        "name": "Bikes",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "capacity": {
+            "name": "Docks"
+          },
+          "directions": {
+            "name": "Directions"
+          }
+        }
+      },
+      "electric_bikes": {
+        "name": "Electric bikes"
+      },
+      "mechanical_bikes": {
+        "name": "Mechanical bikes"
+      },
+      "free_docks": {
+        "name": "Free docks"
+      },
+      "last_report": {
+        "name": "Last report"
+      },
+      "tram_notices": {
+        "name": "Tram notices",
+        "state_attributes": {
+          "notices": {
+            "name": "Notices"
+          }
+        }
+      },
+      "road_works_nearby": {
+        "name": "Nearby"
+      },
+      "nearest_duty_pharmacy": {
+        "name": "Nearest",
+        "state_attributes": {
+          "address": {
+            "name": "Address"
+          },
+          "phone": {
+            "name": "Phone"
+          },
+          "hours": {
+            "name": "Hours"
+          },
+          "distance_km": {
+            "name": "Distance (km)"
+          },
+          "on_duty": {
+            "name": "On duty on"
+          },
+          "open_until": {
+            "name": "Open until"
+          },
+          "directions": {
+            "name": "Directions"
+          }
+        }
+      },
+      "air_quality_index": {
+        "name": "Index",
+        "state": {
+          "good": "Good",
+          "fair": "Fair",
+          "moderate": "Moderate",
+          "poor": "Poor",
+          "very_poor": "Very poor",
+          "extremely_poor": "Extremely poor"
+        },
+        "state_attributes": {
+          "pollutant": {
+            "name": "Pollutant",
+            "state": {
+              "no2": "NO₂",
+              "o3": "O₃",
+              "so2": "SO₂",
+              "pm10": "PM10",
+              "pm25": "PM2.5"
+            }
+          },
+          "complete": {
+            "name": "Complete"
+          },
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "no2": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "no": {
+        "name": "Nitrogen monoxide",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "o3": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "co": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "so2": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "pm10": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "pm25": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "h2s": {
+        "name": "Hydrogen sulphide",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "benzene": {
+        "name": "Benzene",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitude"
+          },
+          "longitude": {
+            "name": "Longitude"
+          },
+          "published_at": {
+            "name": "Published at"
+          }
+        }
+      },
+      "pollen": {
+        "state": {
+          "nulo": "None",
+          "bajo": "Low",
+          "moderado": "Moderate",
+          "alto": "High",
+          "muy_alto": "Very high"
+        },
+        "state_attributes": {
+          "published_on": {
+            "name": "Published on"
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "find_stops": {
+      "name": "Find stops",
+      "description": "Finds tram stops, bus stops or Bizi stations by name, number, street or line, nearest first: from home, or from a point.",
+      "fields": {
+        "kind": {
+          "name": "Kind",
+          "description": "Tram stops, bus stops or Bizi stations."
+        },
+        "query": {
+          "name": "Text",
+          "description": "Part of a name, a number, a street or a line. Accents and case don't matter. Without it, the nearest are returned."
+        },
+        "latitude": {
+          "name": "Latitude",
+          "description": "Latitude of the point to measure from, together with the longitude. Without a point, home."
+        },
+        "longitude": {
+          "name": "Longitude",
+          "description": "Longitude of the point to measure from, together with the latitude. Without a point, home."
+        },
+        "limit": {
+          "name": "Limit",
+          "description": "How many to return, at most 50."
+        }
+      }
+    },
+    "get_arrivals": {
+      "name": "Get arrivals",
+      "description": "Gets the next trams or buses at any stop, whether or not it is added: line, destination, minutes and time.",
+      "fields": {
+        "mode": {
+          "name": "Mode",
+          "description": "Tram or bus."
+        },
+        "stop": {
+          "name": "Stop",
+          "description": "The stop's number, as find_stops returns it; for a bus stop, the number on its sign."
+        }
+      }
+    },
+    "get_bizi_station": {
+      "name": "Get Bizi station",
+      "description": "Gets the bikes, by type, and free docks at any Bizi station, whether or not it is added.",
+      "fields": {
+        "station": {
+          "name": "Station",
+          "description": "The station's number, as in its name."
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "tram_unavailable": {
+      "message": "The city's tram arrivals can't be reached"
+    },
+    "bus_unavailable": {
+      "message": "No bus stop has arrivals from the last 10 minutes: neither the operator nor the city answers"
+    },
+    "bizi_unavailable": {
+      "message": "Neither the Bizi operator nor the city's Bizi list can be reached"
+    },
+    "road_works_unavailable": {
+      "message": "The city's road works lists can't be reached"
+    },
+    "pharmacies_unavailable": {
+      "message": "The city's list of pharmacies on duty can't be reached"
+    },
+    "air_quality_unavailable": {
+      "message": "The city's air quality readings can't be reached"
+    },
+    "pollen_unavailable": {
+      "message": "The city's pollen levels can't be reached"
+    },
+    "unknown_stop": {
+      "message": "No stop or station has the code {code}"
+    },
+    "kind_disabled": {
+      "message": "That kind of stop is switched off in the integration's options"
+    },
+    "source_unavailable": {
+      "message": "The source of this data can't be reached right now"
+    },
+    "station_without_counts": {
+      "message": "The source answering now has no bike or dock counts for station {code}"
+    },
+    "not_loaded": {
+      "message": "Zaragoza Open Data isn't running: reload it and try again"
+    }
+  },
+  "issues": {
+    "stop_vanished": {
+      "title": "{title} is no longer listed",
+      "fix_flow": {
+        "step": {
+          "confirm": {
+            "title": "Remove {title}?",
+            "description": "{title} has been missing from its source's list for over a day: it was probably renumbered or removed. Submit to remove it, with its device and sensors. If it was renumbered, add it again under its new number."
+          }
+        }
+      }
+    }
+  }
+}

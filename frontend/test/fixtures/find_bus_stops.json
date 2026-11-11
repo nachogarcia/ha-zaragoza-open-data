@@ -1,0 +1,37 @@
+{
+  "stops": [
+    {
+      "code": "688",
+      "direction": null,
+      "distance_m": 0,
+      "latitude": 41.62702649728611,
+      "lines": [
+        "58"
+      ],
+      "longitude": -0.9072975810322448,
+      "name": "P. Reyes de Aragón N.º 24"
+    },
+    {
+      "code": "670",
+      "direction": null,
+      "distance_m": 53,
+      "latitude": 41.62728672404574,
+      "lines": [
+        "58"
+      ],
+      "longitude": -0.9078379796205713,
+      "name": "P. Infantes de España N.º 1 / Vía Ibérica"
+    },
+    {
+      "code": "843",
+      "direction": null,
+      "distance_m": 118,
+      "latitude": 41.6273771848193,
+      "lines": [
+        "N4"
+      ],
+      "longitude": -0.9086410001341357,
+      "name": "Vía Ibérica N.º 33 / P. Infantes de España"
+    }
+  ]
+}

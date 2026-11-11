@@ -1,0 +1,18 @@
+name: HACS
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 5 * * *"
+
+jobs:
+  hacs:
+    # The HACS action only validates public repositories.
+    if: ${{ !github.event.repository.private }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hacs/action@main
+        with:
+          category: integration

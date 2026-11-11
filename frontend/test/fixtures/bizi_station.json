@@ -1,0 +1,14 @@
+{
+  "bikes": 4,
+  "docks": 15,
+  "electric": 4,
+  "mechanical": 0,
+  "renting": true,
+  "returning": true,
+  "source": "gbfs",
+  "station": {
+    "code": "164",
+    "name": "Rosales: Illueca"
+  },
+  "updated": "2026-11-09T13:40:04+01:00"
+}

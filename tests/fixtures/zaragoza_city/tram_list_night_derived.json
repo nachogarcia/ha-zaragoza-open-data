@@ -1,0 +1,957 @@
+{
+ "totalCount": 50,
+ "start": 0,
+ "rows": 500,
+ "result": [
+  {
+   "id": "101",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=101",
+   "title": "AVENIDA DE LA ACADEMIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8708043196472608,
+     41.68721736857768
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "102",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=102",
+   "title": "AVENIDA DE LA ACADEMIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8707787699110215,
+     41.687216424958216
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "302",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=302",
+   "title": "JUSLIBOL",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.884626111810379,
+     41.68681362815634
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 6 minutos</li><li>L1: AVENIDA ACADEMIA: 9 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "201",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=201",
+   "title": "PARQUE GOYA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.878704035935457,
+     41.68684900398003
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 1 minutos</li><li>L1: MAGO DE OZ: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "202",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=202",
+   "title": "PARQUE GOYA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8787101785601839,
+     41.68673171405406
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 7 minutos</li><li>L1: AVENIDA ACADEMIA: 10 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "402",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=402",
+   "title": "CAMPUS RIO EBRO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8896794932980542,
+     41.68347156246127
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 4 minutos</li><li>L1: AVENIDA ACADEMIA: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "301",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=301",
+   "title": "JUSLIBOL",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8846278141287558,
+     41.686910701397345
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 3 minutos</li><li>L1: MAGO DE OZ: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "502",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=502",
+   "title": "GARCIA ABRIL",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8892311116916783,
+     41.677454336449784
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "401",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=401",
+   "title": "CAMPUS RIO EBRO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8897943413131593,
+     41.68347001151971
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 4 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "702",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=702",
+   "title": "PABLO NERUDA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8888424674967174,
+     41.66963057552978
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "601",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=601",
+   "title": "LEGAZ LACAMBRA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8908393900410567,
+     41.674874743155314
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 3 minutos</li><li>L1: MAGO DE OZ: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "602",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=602",
+   "title": "ADOLFO AZNAR",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8892597165910525,
+     41.67486219132052
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 0 minutos</li><li>L1: AVENIDA ACADEMIA: 4 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "501",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=501",
+   "title": "MARGARITA XIRGU",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8908045204522034,
+     41.67758578772829
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "801",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=801",
+   "title": "ROSALIA DE CASTRO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8873440573059242,
+     41.66646119261993
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "802",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=802",
+   "title": "LEON FELIPE",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8866449039219496,
+     41.66738029678503
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 1 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "701",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=701",
+   "title": "CLARA CAMPOAMOR",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8906840108247296,
+     41.669845690120546
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1001",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1001",
+   "title": "LA CHIMENEA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8828475648052913,
+     41.661174558700246
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1002",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1002",
+   "title": "LA CHIMENEA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8828393320565391,
+     41.66127068212084
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "901",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=901",
+   "title": "MARTINEZ SORIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8846435357078465,
+     41.66250597862831
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 3 minutos</li><li>L1: MAGO DE OZ: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "902",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=902",
+   "title": "MARIA MONTESSORI",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.883606049577144,
+     41.6630947465636
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 3 minutos</li><li>L1: AVENIDA ACADEMIA: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1101",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1101",
+   "title": "PLAZA DEL PILAR - MURALLAS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8821748834915281,
+     41.65727632462157
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 3 minutos</li><li>L1: MAGO DE OZ: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1102",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1102",
+   "title": "PLAZA DEL PILAR - MURALLAS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8820733181164175,
+     41.657231175221874
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 0 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1302",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1302",
+   "title": "PLAZA ESPANA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8815219475629344,
+     41.651356910186045
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 1 minutos</li><li>L1: AVENIDA ACADEMIA: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1201",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1201",
+   "title": "CESAR AUGUSTO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8840714551015636,
+     41.655192498945446
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 4 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1202",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1202",
+   "title": "CESAR AUGUSTO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8838796425078432,
+     41.65512143681619
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 3 minutos</li><li>L1: AVENIDA ACADEMIA: 9 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2501",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2501",
+   "title": "MAGO DE OZ",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9363805520582271,
+     41.62497046613963
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1311",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1311",
+   "title": "PLAZA ARAGON",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8852391476851216,
+     41.647957954594006
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 4 minutos</li><li>L1: MAGO DE OZ: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1312",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1312",
+   "title": "PLAZA ARAGON",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8851639361683451,
+     41.64791411735438
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 5 minutos</li><li>L1: AVENIDA ACADEMIA: 9 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1301",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1301",
+   "title": "PLAZA ESPANA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8815944840350631,
+     41.65139852916328
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2101",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2101",
+   "title": "PASEO DE LOS OLVIDADOS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9188084399278142,
+     41.62256776961734
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 4 minutos</li><li>L1: MAGO DE OZ: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2301",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2301",
+   "title": "LOS PAJAROS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.923669217862991,
+     41.621286854442396
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 7 minutos</li><li>L1: MAGO DE OZ: 10 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2401",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2401",
+   "title": "CANTANDO BAJO LA LLUVIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.930185492587926,
+     41.62357289972804
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 8 minutos</li><li>L1: MAGO DE OZ: 11 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1701",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1701",
+   "title": "EMPERADOR CARLOS V",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8976905835811019,
+     41.63801542715126
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1801",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1801",
+   "title": "ROMAREDA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9006698186054948,
+     41.635679983119964
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1901",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1901",
+   "title": "CASABLANCA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9055989921154052,
+     41.63135203851997
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 3 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2001",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2001",
+   "title": "ARGUALAS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9096155388996879,
+     41.626386960117244
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1401",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1401",
+   "title": "GRAN VIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8871558438886694,
+     41.64650087942773
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 0 minutos</li><li>L1: MAGO DE OZ: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1501",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1501",
+   "title": "FERNANDO EL CATOLICO - GOYA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.892257594225223,
+     41.64386047362514
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 2 minutos</li><li>L1: MAGO DE OZ: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1601",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1601",
+   "title": "PLAZA SAN FRANCISCO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8950562849629533,
+     41.64087623158149
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: MAGO DE OZ: 4 minutos</li><li>L1: MAGO DE OZ: 9 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2002",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2002",
+   "title": "ARGUALAS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9095584654201042,
+     41.62636686487973
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2422",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2422",
+   "title": "UN AMERICANO EN PARIS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9304910897725158,
+     41.623028141352
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 1 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2502",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2502",
+   "title": "MAGO DE OZ",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.936450897480926,
+     41.624375626652835
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 4 minutos</li><li>L1: AVENIDA ACADEMIA: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1902",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1902",
+   "title": "CASABLANCA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9055700550541702,
+     41.63133875106278
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 0 minutos</li><li>L1: AVENIDA ACADEMIA: 4 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1802",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1802",
+   "title": "ROMAREDA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9006075797755985,
+     41.63563254883058
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1702",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1702",
+   "title": "EMPERADOR CARLOS V",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8976101497735137,
+     41.637974230526126
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 3 minutos</li><li>L1: AVENIDA ACADEMIA: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1602",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1602",
+   "title": "PLAZA SAN FRANCISCO",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.894952294641248,
+     41.64082196560242
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 0 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1502",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1502",
+   "title": "FERNANDO EL CATOLICO - GOYA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8921749197012053,
+     41.643818546585194
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 1 minutos</li><li>L1: AVENIDA ACADEMIA: 5 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "1402",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=1402",
+   "title": "GRAN VIA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.887116640612462,
+     41.64644125036037
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 3 minutos</li><li>L1: AVENIDA ACADEMIA: 7 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2322",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2322",
+   "title": "LA VENTANA INDISCRETA",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9241035084006298,
+     41.62087472398119
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 2 minutos</li><li>L1: AVENIDA ACADEMIA: 6 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  },
+  {
+   "id": "2102",
+   "uri": "http://www.zaragoza.es/ciudad/viapublica/movilidad/detalle_Tranvia?oid=2102",
+   "title": "PASEO DE LOS OLVIDADOS",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9187275283019417,
+     41.62248665915493
+    ]
+   },
+   "lastUpdated": "2026-11-09T13:40:02",
+   "mensajes": [
+    ".www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700",
+    ".PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA."
+   ],
+   "icon": "http://www.zaragoza.es/contenidos/iconos/tranvia.png",
+   "description": "<ul><li>Destinos:<ul><li>L1: AVENIDA ACADEMIA: 4 minutos</li><li>L1: AVENIDA ACADEMIA: 8 minutos</li></ul></li><li>Mensajes:<ul><li>.www.tranviasdezaragoza.es     Telefono Atencion al Cliente: 900 920 700</li><li>.PUEDE CONSULTAR EL NIVEL DE OCUPACION EN TIEMPO REAL CON EL CODIGO QR DE PARADA.</li></ul></li></ul><p>Actualizado: 13:40</p>"
+  }
+ ]
+}

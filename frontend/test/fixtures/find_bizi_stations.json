@@ -1,0 +1,31 @@
+{
+  "stops": [
+    {
+      "code": "48",
+      "direction": null,
+      "distance_m": 149,
+      "latitude": 41.647862,
+      "lines": [],
+      "longitude": -0.890379,
+      "name": "H. Cortés: Pza. Arregui"
+    },
+    {
+      "code": "105",
+      "direction": null,
+      "distance_m": 170,
+      "latitude": 41.649306,
+      "lines": [],
+      "longitude": -0.891034,
+      "name": "Dr. Horno: Sacramento"
+    },
+    {
+      "code": "26",
+      "direction": null,
+      "distance_m": 192,
+      "latitude": 41.649689,
+      "lines": [],
+      "longitude": -0.887123,
+      "name": "Pta. del Carmen"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "zaragoza_open_data",
+  "name": "Zaragoza Open Data",
+  "codeowners": ["@nachogarcia"],
+  "config_flow": true,
+  "dependencies": ["frontend", "http"],
+  "documentation": "https://github.com/nachogarcia/ha-zaragoza-open-data",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/nachogarcia/ha-zaragoza-open-data/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

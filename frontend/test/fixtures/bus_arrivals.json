@@ -1,0 +1,35 @@
+{
+  "arrivals": [
+    {
+      "destination": "TRANVIA-ARCOSUR",
+      "line": "59",
+      "minutes": 7,
+      "time": "2026-11-09T13:47:30+01:00"
+    },
+    {
+      "destination": "VALDESPARTERA",
+      "line": "56",
+      "minutes": 22,
+      "time": "2026-11-09T14:02:30+01:00"
+    },
+    {
+      "destination": "TRANVIA-ARCOSUR",
+      "line": "59",
+      "minutes": 27,
+      "time": "2026-11-09T14:07:30+01:00"
+    },
+    {
+      "destination": "VALDESPARTERA",
+      "line": "56",
+      "minutes": 48,
+      "time": "2026-11-09T14:28:30+01:00"
+    }
+  ],
+  "source": "avanza",
+  "stop": {
+    "code": "1231",
+    "direction": null,
+    "name": "La Lista de Schindler"
+  },
+  "updated": "2026-11-09T13:40:30+01:00"
+}

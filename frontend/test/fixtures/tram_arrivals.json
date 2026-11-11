@@ -1,0 +1,23 @@
+{
+  "arrivals": [
+    {
+      "destination": "Avenida Academia",
+      "line": "L1",
+      "minutes": 4,
+      "time": "2026-11-09T13:44:02+01:00"
+    },
+    {
+      "destination": "Avenida Academia",
+      "line": "L1",
+      "minutes": 8,
+      "time": "2026-11-09T13:48:02+01:00"
+    }
+  ],
+  "source": "zaragoza_city",
+  "stop": {
+    "code": "2502",
+    "direction": "Avenida de la Academia",
+    "name": "Mago de Oz"
+  },
+  "updated": "2026-11-09T13:40:02+01:00"
+}

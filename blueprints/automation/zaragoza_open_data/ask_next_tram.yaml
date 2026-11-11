@@ -1,0 +1,155 @@
+blueprint:
+  name: Zaragoza Open Data - ask for the next tram or bus
+  description: >-
+    Ask Assist when the next tram or bus comes to any stop in Zaragoza, in Spanish
+    or in English: "¿Cuándo pasa el tranvía en Plaza España?", "When is the next bus
+    at 688?". It answers with the next arrivals at the stop whose name or number
+    matches what you said, nearest home first; for a tram stop, at its platform
+    nearer home that trams leave from. Needs the Zaragoza Open Data integration with
+    trams or buses switched on.
+
+
+    Pregunta a Assist cuándo pasa el próximo tranvía o autobús por cualquier parada de
+    Zaragoza, en español o en inglés. Responde con las próximas llegadas a la parada
+    cuyo nombre o número coincide con lo que has dicho, la más cercana a casa primero;
+    en una parada de tranvía, en su andén más cercano a casa del que salen tranvías.
+    Necesita la integración Zaragoza Open Data con el tranvía o el autobús activados.
+  domain: automation
+  source_url: https://github.com/nachogarcia/ha-zaragoza-open-data/blob/main/blueprints/automation/zaragoza_open_data/ask_next_tram.yaml
+  homeassistant:
+    min_version: 2026.11.0
+  input:
+    spanish_sentences:
+      name: Spanish sentences / Frases en español
+      description: >-
+        What to say in Spanish. {mode} is the word for the vehicle (tranvía,
+        autobús, bus) and {stop} the stop's name or number. Without punctuation.
+      default:
+        - cuándo pasa el {mode} en {stop}
+        - cuando pasa el {mode} en {stop}
+        - (cuándo|cuando) pasa el {mode} por {stop}
+        - (cuándo|cuando) (llega|viene) el {mode} (a|en) {stop}
+        - (próximo|proximo) {mode} (en|de) {stop}
+      selector:
+        text:
+          multiple: true
+    english_sentences:
+      name: English sentences / Frases en inglés
+      description: >-
+        What to say in English. {mode} is the word for the vehicle (tram, bus) and
+        {stop} the stop's name or number. Without punctuation.
+      default:
+        - when is the next {mode} at {stop}
+        - when does the next {mode} (come|arrive) at {stop}
+        - next {mode} at {stop}
+      selector:
+        text:
+          multiple: true
+
+mode: parallel
+
+triggers:
+  - trigger: conversation
+    id: es
+    command: !input spanish_sentences
+  - trigger: conversation
+    id: en
+    command: !input english_sentences
+
+variables:
+  language: "{{ trigger.id }}"
+  spoken_stop: "{{ trigger.slots.stop | trim }}"
+  kind: >-
+    {{ {'tranvía': 'tram', 'tranvia': 'tram', 'tram': 'tram',
+        'autobús': 'bus', 'autobus': 'bus', 'bus': 'bus'}.get(
+        trigger.slots.mode | trim | lower, '') }}
+  vehicle: >-
+    {{ {'es': {'tram': 'tranvía', 'bus': 'autobús'},
+        'en': {'tram': 'tram', 'bus': 'bus'}}[language].get(kind, '') }}
+
+actions:
+  - if:
+      - condition: template
+        value_template: "{{ kind == '' }}"
+    then:
+      - set_conversation_response: >-
+          {{ {'es': 'Puedo decirte cuándo pasa el tranvía o el autobús.',
+              'en': 'I can tell you when the next tram or bus comes.'}[language] }}
+      - stop: Not a tram or a bus
+  # The stops whose number or name matches come first, nearest home first.
+  - action: zaragoza_open_data.find_stops
+    continue_on_error: true
+    data:
+      kind: "{{ kind }}"
+      query: "{{ spoken_stop }}"
+      limit: 5
+    response_variable: found
+  # find_stops failed. A script can't tell why (the kind switched off, the
+  # integration not running, or no stop list yet with the source down), so the
+  # answer says only what is sure, and where to look.
+  - if:
+      - condition: template
+        value_template: "{{ found is not defined }}"
+    then:
+      - set_conversation_response: >-
+          {% if language == 'es' %}Ahora no puedo buscar paradas de {{ vehicle }}.
+          Comprueba que el {{ vehicle }} está activado en las opciones de la
+          integración.{% else %}I can't look up {{ vehicle }} stops right now. Check
+          that {{ {'tram': 'trams', 'bus': 'buses'}[kind] }} are switched on in the
+          integration's options.{% endif %}
+      - stop: The stops can't be listed
+  - if:
+      - condition: template
+        value_template: "{{ found.stops | count == 0 }}"
+    then:
+      - set_conversation_response: >-
+          {% if language == 'es' %}No encuentro ninguna parada de {{ vehicle }} que
+          se llame {{ spoken_stop }}.{% else %}I can't find a {{ vehicle }} stop
+          called {{ spoken_stop }}.{% endif %}
+      - stop: No such stop
+  - variables:
+      # A tram stop's arrival-only platform (no direction) has nothing leaving
+      # it: the first platform with one. Bus stops have none: the first stop.
+      chosen: >-
+        {% set departing = found.stops | selectattr('direction') | list %}{{
+        (departing or found.stops)[0].code }}
+  - action: zaragoza_open_data.get_arrivals
+    continue_on_error: true
+    data:
+      mode: "{{ kind }}"
+      stop: "{{ chosen }}"
+    response_variable: board
+  - if:
+      - condition: template
+        value_template: "{{ board is not defined }}"
+    then:
+      - set_conversation_response: >-
+          {{ {'es': 'Ahora no puedo consultar las llegadas.',
+              'en': "I can't get the arrivals right now."}[language] }}
+      - stop: The arrivals can't be fetched
+  - variables:
+      # The stop's name, and for a tram platform the way it goes.
+      place: >-
+        {% set stop = board.stop %}{{ stop.name }}{% if stop.direction %}{{
+        ', hacia ' if language == 'es' else ', towards ' }}{{ stop.direction
+        }}{% endif %}
+  - set_conversation_response: >-
+      {% set es = language == 'es' %}
+      {%- if board.arrivals | count == 0 -%}
+        {{ place }}: {{ 'ahora no viene nada' if es else 'nothing is coming right now' }}.
+      {%- else -%}
+        {%- set ns = namespace(parts=[]) -%}
+        {%- for arrival in board.arrivals[:3] -%}
+          {%- if arrival.minutes == 0 -%}
+            {%- set when = 'ahora' if es else 'now' -%}
+          {%- elif arrival.minutes == 1 -%}
+            {%- set when = 'en 1 minuto' if es else 'in 1 minute' -%}
+          {%- else -%}
+            {%- set when = ('en %d minutos' if es else 'in %d minutes') | format(arrival.minutes) -%}
+          {%- endif -%}
+          {%- set ns.parts = ns.parts + [
+                ('línea %s a %s %s' if es else 'line %s to %s %s')
+                | format(arrival.line, arrival.destination, when)] -%}
+        {%- endfor -%}
+        {{ place }}: {{ ns.parts | join('; ') }}.
+      {%- endif %}

@@ -1,0 +1,26 @@
+{
+  "stops": [
+    {
+      "code": "1101",
+      "direction": "Mago de Oz",
+      "distance_m": 1104,
+      "latitude": 41.65727632462157,
+      "lines": [
+        "L1"
+      ],
+      "longitude": -0.8821748834915281,
+      "name": "Plaza del Pilar - Murallas"
+    },
+    {
+      "code": "1102",
+      "direction": "Avenida de la Academia",
+      "distance_m": 1104,
+      "latitude": 41.657231175221874,
+      "lines": [
+        "L1"
+      ],
+      "longitude": -0.8820733181164175,
+      "name": "Plaza del Pilar - Murallas"
+    }
+  ]
+}

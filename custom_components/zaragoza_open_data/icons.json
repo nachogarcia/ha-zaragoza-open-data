@@ -1,0 +1,99 @@
+{
+  "options": {
+    "step": {
+      "init": {
+        "sections": {
+          "refresh": "mdi:timer-cog-outline"
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "renting": {
+        "default": "mdi:bicycle",
+        "state": {
+          "off": "mdi:bicycle-cargo"
+        }
+      },
+      "returning": {
+        "default": "mdi:parking",
+        "state": {
+          "off": "mdi:close-octagon-outline"
+        }
+      }
+    },
+    "geo_location": {
+      "road_work": {
+        "default": "mdi:traffic-cone"
+      },
+      "pharmacy": {
+        "default": "mdi:medical-bag"
+      },
+      "air_station": {
+        "default": "mdi:air-filter"
+      }
+    },
+    "sensor": {
+      "next_arrival": {
+        "default": "mdi:clock-fast"
+      },
+      "following_arrival": {
+        "default": "mdi:clock-outline"
+      },
+      "minutes_to_next": {
+        "default": "mdi:timer-sand"
+      },
+      "bikes": {
+        "default": "mdi:bicycle"
+      },
+      "electric_bikes": {
+        "default": "mdi:bicycle-electric"
+      },
+      "mechanical_bikes": {
+        "default": "mdi:bicycle-basket"
+      },
+      "free_docks": {
+        "default": "mdi:parking"
+      },
+      "last_report": {
+        "default": "mdi:clock-check-outline"
+      },
+      "tram_notices": {
+        "default": "mdi:message-alert-outline"
+      },
+      "road_works_nearby": {
+        "default": "mdi:traffic-cone"
+      },
+      "nearest_duty_pharmacy": {
+        "default": "mdi:medical-bag"
+      },
+      "air_quality_index": {
+        "default": "mdi:air-filter"
+      },
+      "no": {
+        "default": "mdi:molecule"
+      },
+      "h2s": {
+        "default": "mdi:molecule"
+      },
+      "benzene": {
+        "default": "mdi:molecule"
+      },
+      "pollen": {
+        "default": "mdi:flower-pollen"
+      }
+    }
+  },
+  "services": {
+    "find_stops": {
+      "service": "mdi:map-search"
+    },
+    "get_arrivals": {
+      "service": "mdi:clock-fast"
+    },
+    "get_bizi_station": {
+      "service": "mdi:bicycle"
+    }
+  }
+}

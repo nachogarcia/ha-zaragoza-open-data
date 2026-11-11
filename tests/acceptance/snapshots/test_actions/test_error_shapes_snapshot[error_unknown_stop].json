@@ -1,0 +1,9 @@
+{
+  "code": "service_validation_error",
+  "message": "Validation error: No stop or station has the code 9999",
+  "translation_domain": "zaragoza_open_data",
+  "translation_key": "unknown_stop",
+  "translation_placeholders": {
+    "code": "9999"
+  }
+}

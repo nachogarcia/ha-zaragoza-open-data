@@ -1,0 +1,7 @@
+{
+  "code": "home_assistant_error",
+  "message": "The source of this data can't be reached right now",
+  "translation_domain": "zaragoza_open_data",
+  "translation_key": "source_unavailable",
+  "translation_placeholders": null
+}

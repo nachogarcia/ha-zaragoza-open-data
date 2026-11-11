@@ -1,0 +1,6 @@
+{
+  "name": "Zaragoza Open Data",
+  "homeassistant": "2026.11.0",
+  "country": ["ES"],
+  "render_readme": true
+}

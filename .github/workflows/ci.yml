@@ -1,0 +1,39 @@
+name: CI
+
+# Once per change: every push, to any branch. Without a pull_request trigger, a
+# pull request's pushes don't run it twice. (Work is pushed to a branch without
+# a pull request, and main gets it at release.)
+on:
+  push:
+
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      # The card's types are checked in the card job. The card's copies of the
+      # action snapshots are checked by tests/architecture/test_card_fixtures.py.
+      - run: make lint types-py test
+
+  card:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+      # The built card is committed: a changed or new file here means someone forgot
+      # to rebuild it, or to commit what the build made.
+      - run: test -z "$(git status --porcelain ../custom_components/zaragoza_open_data/frontend)"

@@ -1,0 +1,16 @@
+name: Live
+
+# Hits the real city, operator and GBFS servers, so it runs daily rather than on every push.
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run pytest -m live --no-cov

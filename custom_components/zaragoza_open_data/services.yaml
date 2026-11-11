@@ -1,0 +1,62 @@
+find_stops:
+  fields:
+    kind:
+      required: true
+      example: tram
+      selector:
+        select:
+          translation_key: kind
+          options:
+            - tram
+            - bus
+            - bizi
+    query:
+      example: pilar
+      selector:
+        text:
+    latitude:
+      example: 41.6488
+      selector:
+        number:
+          min: -90
+          max: 90
+          step: any
+          mode: box
+    longitude:
+      example: -0.8891
+      selector:
+        number:
+          min: -180
+          max: 180
+          step: any
+          mode: box
+    limit:
+      default: 8
+      selector:
+        number:
+          min: 1
+          max: 50
+          mode: box
+get_arrivals:
+  fields:
+    mode:
+      required: true
+      example: tram
+      selector:
+        select:
+          translation_key: kind
+          options:
+            - tram
+            - bus
+    stop:
+      required: true
+      example: "1302"
+      selector:
+        text:
+get_bizi_station:
+  fields:
+    station:
+      required: true
+      example: "16"
+      selector:
+        text:

@@ -1,0 +1,27 @@
+{
+  "name": "zaragoza-open-data-card",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Zaragoza Open Data search card, built into the integration",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^22.13.0 || ^24.0.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "eslint": "10.13.0",
+    "happy-dom": "21.0.4",
+    "home-assistant-js-websocket": "9.7.1",
+    "lit": "3.3.3",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.72.0",
+    "vite": "8.3.5",
+    "vitest": "5.0.5"
+  }
+}

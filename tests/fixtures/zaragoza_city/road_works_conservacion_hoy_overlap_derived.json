@@ -1,0 +1,574 @@
+{
+ "totalCount": 28,
+ "start": 0,
+ "rows": 500,
+ "result": [
+  {
+   "id": 25688,
+   "title": "REPEATED INCIDENT, MAINTENANCE COPY",
+   "calle": "TABOADA  EDUARDO JES., 10",
+   "motivo": "Renovación tubería abastecimiento(Fase 2)\t\t\t",
+   "inicio": "2026-11-06T00:00:00",
+   "grupoTrabajo": "Zona IV",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8671248549182887,
+     41.65211268384353
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31555,
+   "title": "MÚJICA LAÍNEZ\t\t",
+   "calle": "MUJICA LAINEZ(ESCRIT), 16",
+   "motivo": "Reparación de pavimentos\t",
+   "inicio": "2026-11-05T00:00:00",
+   "grupoTrabajo": "Zona III",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.89491771437742,
+     41.67424278451379
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31373,
+   "title": "AVDA MADRID / ROGER DE FLOR\t",
+   "calle": "MADRID  AVENIDA DE, 9",
+   "motivo": "Reparación pavimento y mejora accesibilidad peatonal en isleta",
+   "inicio": "2026-10-22T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8945115616672227,
+     41.65572717575124
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 30704,
+   "title": "SELVA DE OZA (ENTRE AVDA.AMERICA Y FRAY J. GARCES)\t",
+   "calle": "OZA  SELVA DE, 14",
+   "motivo": "Renovación tubería con mejora de accesibilidad\t\t\t\r\n",
+   "inicio": "2026-09-01T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8866385175396748,
+     41.62837703792684
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31527,
+   "title": "PUENTE ALCALDE CABALLERO -BENJAMÍN FRANKLIN",
+   "calle": "PUENTE ALCALDE CABALLERO",
+   "motivo": "Reparación juntas dilatación\t\t\r\n\t\t\t\t\t",
+   "inicio": "2026-11-03T00:00:00",
+   "grupoTrabajo": "Puentes",
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31585,
+   "title": "AVDA ESTRELLAS\t",
+   "calle": "ESTRELLAS  AV.DE LAS, 1",
+   "motivo": "Reparación de pavimentos\t\t",
+   "inicio": "2026-11-06T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9346142149143951,
+     41.64291530919064
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31542,
+   "title": "VÍA RAMÓN PIGNATELLI / AFRICA\t",
+   "calle": "PIGNATELLI  RAMON, 9",
+   "motivo": "Reparación de pavimentos\t\t",
+   "inicio": "2026-11-04T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.884939183093423,
+     41.653752114653464
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31609,
+   "title": "BENJAMÍN FRANKLIN / TOMÁS ALBA EDISON",
+   "calle": "FRANKLIN  BENJAMIN, 14",
+   "motivo": "Reparación urgente tubería general\t\t\t\r\n",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Zona III",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8674273397461318,
+     41.667286132701605
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 30158,
+   "title": "ALFREDO NOBEL",
+   "calle": "NOBEL  ALFREDO, 91",
+   "motivo": "Accesibilidad ampliacion acera\t",
+   "inicio": "2026-07-16T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9194535123337609,
+     41.65131507098838
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31484,
+   "title": "ESMERALDA / CUARTA AVENIDA ",
+   "calle": "ESMERALDA, 14",
+   "motivo": "Mejora accesibilidad con ejecución pasos peatones  inteligentes con coordinación con Movilidad Urbana",
+   "inicio": "2026-10-29T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8779525682181017,
+     41.624130429104056
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31525,
+   "title": "PUENTE RONDA HISPANIDAD - A2 (S.J. MOZARRIFAR)",
+   "calle": "PUENTE RONDA HISPANIDAD  ",
+   "motivo": "Reparación juntas dilatación\t\t\t\t\t\t\t\t",
+   "inicio": "2026-11-03T00:00:00",
+   "grupoTrabajo": "Puentes",
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31554,
+   "title": "AVDA NAVARRA\t180",
+   "calle": "NAVARRA  AVENIDA DE, 9",
+   "motivo": "Reposición pavimentos s/ tubería reparada por brigadas municipales",
+   "inicio": "2026-11-05T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9019321703180814,
+     41.65457814794962
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31586,
+   "title": "PLZA DIEGO VELÁZQUEZ\t",
+   "calle": "VELAZQUEZ D. GLORIETA, 3",
+   "motivo": "Reparación de pavimentos\t\t\t",
+   "inicio": "2026-11-06T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8869707288961451,
+     41.63858110568799
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31403,
+   "title": "MOLINO DE LAS ARMAS 46",
+   "calle": "MOLINO DE LAS ARMAS, 46",
+   "motivo": "Reparación tubería general iniciada por brigadas municipales\t",
+   "inicio": "2026-10-26T00:00:00",
+   "grupoTrabajo": "Zona III",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8636435295955098,
+     41.660951277808415
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31606,
+   "title": "COSO / ALFONSO I\t\t",
+   "calle": "COSO, 11",
+   "motivo": "Reparación de pavimentos\t\t",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8826234071713446,
+     41.65340366406873
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31608,
+   "title": "ALMERÍA\t26\t",
+   "calle": "ALMERIA, 26",
+   "motivo": "Reparación urgente de tubería general",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8892073287404062,
+     41.63100086292753
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31607,
+   "title": "AVDA AMÉRICA \t115",
+   "calle": "AMERICA  AVENIDA DE, 115",
+   "motivo": "Reparación de pavimentos\t\t",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8866293254716796,
+     41.626840450950276
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31511,
+   "title": "PASARELA DELICIAS JJARENAS AVDA CIUDAD DE SORIA",
+   "calle": "PASARELA DELICIAS",
+   "motivo": "Renovación pavimento en pasarela",
+   "inicio": "2026-09-18T00:00:00",
+   "grupoTrabajo": "Puentes",
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31556,
+   "title": "ANA LAGUNA\t2\t",
+   "calle": "ANA LAGUNA, 5",
+   "motivo": "Reparación de pavimentos\t\t",
+   "inicio": "2026-11-05T00:00:00",
+   "grupoTrabajo": "Zona III",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8643491818402597,
+     41.653108449623964
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31524,
+   "title": "PUENTE COGULLADA CARRETERA COGULLADA - 23 DE  ABRIL",
+   "calle": "COGULLADA  CARRETERA, 11",
+   "motivo": "Reparación juntas dilatación\t\t\r\n\t\t\t\t\t -\t\t\t\t\t\t\t\t\t\t\t\t\t",
+   "inicio": "2026-11-03T00:00:00",
+   "grupoTrabajo": "Puentes",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8594484390431112,
+     41.67169075860798
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31526,
+   "title": "PUENTE RONDA HISPANIDAD 4\tRONDA HISPANIDAD 23 ABRIL",
+   "calle": "HISPANIDAD  RONDA, 10",
+   "motivo": "Reparación juntas dilatación\t\t\r\n\t\t\t\t\t",
+   "inicio": "2026-11-03T00:00:00",
+   "grupoTrabajo": "Puentes",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9023181658679944,
+     41.630561844389355
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 30708,
+   "title": "LUIS BUÑUEL-BLANCO GARCIA V HISPANIDAD",
+   "calle": "BUÑUEL LUIS(CINEASTA), 5",
+   "motivo": "Renovación de tubería de abast.\t\r\n\t\t\t\t\t",
+   "inicio": "2026-09-01T00:00:00",
+   "grupoTrabajo": "Zona IV",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9193624234345844,
+     41.65718888840992
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31216,
+   "title": "CONSEJO DE CIENTO ENTRE EMILIO LASALA Y CUARTA AVENIDA",
+   "calle": "CONSEJO DE CIENTO, 11",
+   "motivo": "Mejora accesibilidad con ampliación acera, mejora baden y eliminación barreras urbanísticas en pasos peatones.",
+   "inicio": "2026-10-08T00:00:00",
+   "grupoTrabajo": "Zona I",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8738583636976488,
+     41.62745897030655
+    ]
+   },
+   "tipo": {
+    "id": 2,
+    "title": "Afecciones Importantes"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31604,
+   "title": "CAMINO VALIMAÑA\t\t",
+   "calle": "VALIMAÑA, 1",
+   "motivo": "651/26\tRepara caminos\t",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Brigadas",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8706333869030727,
+     41.65833460955752
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31605,
+   "title": "Echegaray / D. Jaime I\t",
+   "calle": "ECHEGARAY Y CABALLERO, 8",
+   "motivo": "Colocar actuador\t\t\r\n",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Fontaneria",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8904125017179785,
+     41.65869999150229
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31553,
+   "title": "SANTIAGO GRACIA ROYO (MIRALBUENO)\t",
+   "calle": "GRACIA ROYO SANTIAGO, 2",
+   "motivo": "Reparación de pavimentos\t",
+   "inicio": "2026-11-05T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9253712677608571,
+     41.65952211683007
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31603,
+   "title": "LASTANOSA\t28\t",
+   "calle": "LASTANOSA, 28",
+   "motivo": "663/26\tRotura tub. general\t",
+   "inicio": "2026-11-09T00:00:00",
+   "grupoTrabajo": "Brigadas",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9080603731939607,
+     41.653165705141134
+    ]
+   },
+   "tipo": {
+    "id": 8,
+    "title": "Conservación de Infraestructuras",
+    "lastUpdated": "2019-09-30T10:54:42",
+    "pubDate": "2018-04-16T10:35:29"
+   },
+   "seTrabaja": true
+  },
+  {
+   "id": 31460,
+   "title": "MARÍA GUERRERO / ALAVA",
+   "calle": "GUERRERO  MARIA, 2",
+   "motivo": "Reparación fuga de agua ",
+   "inicio": "2026-10-28T00:00:00",
+   "grupoTrabajo": "Zona II",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.909189258428306,
+     41.64348709500217
+    ]
+   },
+   "tipo": {
+    "id": 1,
+    "title": "Cortes de Tráfico"
+   },
+   "seTrabaja": true
+  }
+ ]
+}

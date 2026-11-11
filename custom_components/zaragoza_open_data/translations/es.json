@@ -1,0 +1,748 @@
+{
+  "title": "Zaragoza Open Data",
+  "config": {
+    "step": {
+      "user": {
+        "description": "Elige qué traer de los datos abiertos de Zaragoza. Puedes cambiarlo más tarde en las opciones.",
+        "data": {
+          "kinds": "Datos"
+        },
+        "data_description": {
+          "kinds": "Las paradas y estaciones se añaden después, desde la entrada de la integración."
+        }
+      }
+    },
+    "error": {
+      "no_kinds": "Marca al menos un tipo de datos.",
+      "cannot_connect": "No se puede contactar con el servicio de datos abiertos del Ayuntamiento ni con el operador de Bizi. Inténtalo de nuevo en unos minutos."
+    },
+    "abort": {
+      "single_instance_allowed": "Zaragoza Open Data ya está configurada. Cámbiala desde sus opciones."
+    }
+  },
+  "config_subentries": {
+    "tram_stop": {
+      "entry_type": "Parada de tranvía",
+      "initiate_flow": {
+        "user": "Añadir parada de tranvía"
+      },
+      "step": {
+        "user": {
+          "title": "Añadir parada de tranvía",
+          "description": "Todos los andenes, el más cercano primero. Escribe para buscar por nombre de parada o sentido.",
+          "data": {
+            "stop": "Parada de tranvía"
+          },
+          "data_description": {
+            "stop": "Cada parada tiene un andén por sentido."
+          }
+        },
+        "place": {
+          "title": "Cerca de otro lugar",
+          "description": "Pon el marcador donde quieras medir las distancias.",
+          "data": {
+            "location": "Lugar"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "No se puede contactar con el servicio de datos abiertos del Ayuntamiento. Espera un momento y envía para reintentar.",
+        "pick_from_list": "Elige una parada de la lista."
+      },
+      "abort": {
+        "kind_disabled": "El tranvía está desactivado. Actívalo primero en las opciones de la integración.",
+        "already_configured": "Esta parada de tranvía ya está añadida.",
+        "entry_not_loaded": "Zaragoza Open Data no está en marcha. Recárgala y vuelve a intentarlo."
+      }
+    },
+    "bus_stop": {
+      "entry_type": "Parada de autobús",
+      "initiate_flow": {
+        "user": "Añadir parada de autobús",
+        "reconfigure": "Cambiar líneas"
+      },
+      "step": {
+        "user": {
+          "title": "Añadir parada de autobús",
+          "description": "Todas las paradas, la más cercana primero. Escribe para buscar por número, calle o línea.",
+          "data": {
+            "stop": "Parada de autobús"
+          },
+          "data_description": {
+            "stop": "El número está en el poste de la parada."
+          }
+        },
+        "place": {
+          "title": "Cerca de otro lugar",
+          "description": "Pon el marcador donde quieras medir las distancias.",
+          "data": {
+            "location": "Lugar"
+          }
+        },
+        "lines": {
+          "title": "Líneas",
+          "description": "Marca las líneas que quieres ver en esta parada. Si no marcas ninguna, se ven todas.",
+          "data": {
+            "lines": "Líneas"
+          }
+        },
+        "reconfigure": {
+          "title": "Cambiar líneas",
+          "description": "Marca las líneas que quieres ver en esta parada. Si no marcas ninguna, se ven todas.",
+          "data": {
+            "lines": "Líneas"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "No se puede contactar con el servicio de datos abiertos del Ayuntamiento. Espera un momento y envía para reintentar.",
+        "pick_from_list": "Elige una parada de la lista o escribe su número exacto."
+      },
+      "abort": {
+        "kind_disabled": "El autobús está desactivado. Actívalo primero en las opciones de la integración.",
+        "already_configured": "Esta parada de autobús ya está añadida.",
+        "entry_not_loaded": "Zaragoza Open Data no está en marcha. Recárgala y vuelve a intentarlo.",
+        "cannot_connect": "No se puede contactar con el servicio de datos abiertos del Ayuntamiento para ver las líneas de la parada. Inténtalo de nuevo en unos minutos."
+      }
+    },
+    "bizi_station": {
+      "entry_type": "Estación Bizi",
+      "initiate_flow": {
+        "user": "Añadir estación Bizi"
+      },
+      "step": {
+        "user": {
+          "title": "Añadir estación Bizi",
+          "description": "Todas las estaciones, la más cercana primero. Escribe para buscar por número o nombre.",
+          "data": {
+            "station": "Estación Bizi"
+          }
+        },
+        "place": {
+          "title": "Cerca de otro lugar",
+          "description": "Pon el marcador donde quieras medir las distancias.",
+          "data": {
+            "location": "Lugar"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "No se puede contactar con el operador de Bizi ni con el servicio de datos abiertos del Ayuntamiento. Espera un momento y envía para reintentar.",
+        "pick_from_list": "Elige una estación de la lista o escribe su número exacto."
+      },
+      "abort": {
+        "kind_disabled": "Las bicis Bizi están desactivadas. Actívalas primero en las opciones de la integración.",
+        "already_configured": "Esta estación Bizi ya está añadida.",
+        "entry_not_loaded": "Zaragoza Open Data no está en marcha. Recárgala y vuelve a intentarlo."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "kinds": "Datos",
+          "road_works_radius_km": "Obras: distancia",
+          "road_works_centre": "Obras: medida desde",
+          "road_works_categories": "Obras: categorías",
+          "pharmacies_radius_km": "Farmacias de guardia: distancia",
+          "pharmacies_centre": "Farmacias de guardia: medida desde",
+          "air_station": "Estación de calidad del aire"
+        },
+        "data_description": {
+          "road_works_radius_km": "0 muestra toda la ciudad.",
+          "road_works_centre": "Casa u otra zona, como Trabajo.",
+          "pharmacies_radius_km": "0 muestra toda la ciudad.",
+          "pharmacies_centre": "Casa u otra zona, como Trabajo.",
+          "air_station": "Los sensores usan las lecturas de esta estación."
+        },
+        "sections": {
+          "refresh": {
+            "name": "Avanzado: intervalos de actualización",
+            "description": "Cada cuánto se consulta cada fuente. Cada valor por defecto es también el mínimo: los intervalos solo se pueden alargar.",
+            "data": {
+              "tram_s": "Tranvía",
+              "bus_s": "Autobús",
+              "bike_s": "Bizi",
+              "road_works_min": "Obras",
+              "air_quality_min": "Calidad del aire",
+              "pollen_h": "Polen",
+              "pharmacies_h": "Farmacias de guardia"
+            },
+            "data_description": {
+              "tram_s": "De 60 segundos a 1 día.",
+              "bus_s": "De 60 segundos a 1 día.",
+              "bike_s": "De 120 segundos a 1 día.",
+              "road_works_min": "De 30 minutos a 1 día.",
+              "air_quality_min": "De 30 minutos a 1 día.",
+              "pollen_h": "De 6 horas a 7 días.",
+              "pharmacies_h": "De 6 horas a 7 días."
+            }
+          }
+        }
+      }
+    },
+    "error": {
+      "no_kinds": "Marca al menos un tipo de datos.",
+      "refresh_below_minimum": "Un intervalo de actualización es más corto que su valor por defecto. Los intervalos solo se pueden alargar.",
+      "remove_stops_first": "No se puede desactivar un tipo que aún tiene paradas o estaciones. Quítalas antes desde la entrada de la integración."
+    }
+  },
+  "selector": {
+    "kind": {
+      "options": {
+        "tram": "Tranvía",
+        "bus": "Autobús",
+        "bizi": "Bicis Bizi",
+        "road_works": "Obras y cortes",
+        "pharmacies": "Farmacias de guardia",
+        "air_quality": "Calidad del aire",
+        "pollen": "Polen"
+      }
+    },
+    "road_work_category": {
+      "options": {
+        "traffic_closure": "Corte de tráfico",
+        "water_cut": "Corte de agua",
+        "major_disruption": "Afección importante",
+        "public_transport_disruption": "Afección al transporte público",
+        "maintenance": "Conservación",
+        "other": "Otra"
+      }
+    },
+    "air_station": {
+      "options": {
+        "nearest": "La más cercana a casa"
+      }
+    },
+    "stop_picker": {
+      "options": {
+        "near_place": "Cerca de otro lugar…"
+      }
+    }
+  },
+  "device": {
+    "road_works": {
+      "name": "Obras y cortes"
+    },
+    "pharmacies": {
+      "name": "Farmacias de guardia"
+    },
+    "air_quality": {
+      "name": "Calidad del aire"
+    },
+    "pollen": {
+      "name": "Polen"
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "renting": {
+        "name": "Presta bicis"
+      },
+      "returning": {
+        "name": "Admite devoluciones"
+      }
+    },
+    "geo_location": {
+      "road_work": {
+        "state_attributes": {
+          "street": {
+            "name": "Calle"
+          },
+          "reason": {
+            "name": "Motivo"
+          },
+          "stretch": {
+            "name": "Tramo"
+          },
+          "detour": {
+            "name": "Desvío"
+          },
+          "starts": {
+            "name": "Desde"
+          },
+          "ends": {
+            "name": "Hasta"
+          },
+          "category": {
+            "name": "Categoría",
+            "state": {
+              "traffic_closure": "Corte de tráfico",
+              "water_cut": "Corte de agua",
+              "major_disruption": "Afección importante",
+              "public_transport_disruption": "Afección al transporte público",
+              "maintenance": "Conservación",
+              "other": "Otra"
+            }
+          }
+        }
+      },
+      "pharmacy": {
+        "state_attributes": {
+          "address": {
+            "name": "Dirección"
+          },
+          "phone": {
+            "name": "Teléfono"
+          },
+          "hours": {
+            "name": "Horario"
+          },
+          "sector": {
+            "name": "Sector"
+          },
+          "on_duty": {
+            "name": "De guardia el"
+          },
+          "open_until": {
+            "name": "Abierta hasta"
+          },
+          "directions": {
+            "name": "Cómo llegar"
+          }
+        }
+      },
+      "air_station": {
+        "state_attributes": {
+          "index": {
+            "name": "Índice",
+            "state": {
+              "good": "Buena",
+              "fair": "Razonablemente buena",
+              "moderate": "Regular",
+              "poor": "Desfavorable",
+              "very_poor": "Muy desfavorable",
+              "extremely_poor": "Extremadamente desfavorable"
+            }
+          },
+          "no2": {
+            "name": "NO₂ (μg/m³)"
+          },
+          "no": {
+            "name": "NO (μg/m³)"
+          },
+          "o3": {
+            "name": "O₃ (μg/m³)"
+          },
+          "co": {
+            "name": "CO (mg/m³)"
+          },
+          "so2": {
+            "name": "SO₂ (μg/m³)"
+          },
+          "pm10": {
+            "name": "PM10 (μg/m³)"
+          },
+          "pm25": {
+            "name": "PM2.5 (μg/m³)"
+          },
+          "h2s": {
+            "name": "H₂S (μg/m³)"
+          },
+          "benzene": {
+            "name": "Benceno (μg/m³)"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      }
+    },
+    "sensor": {
+      "next_arrival": {
+        "name": "Próxima llegada",
+        "state_attributes": {
+          "line": {
+            "name": "Línea"
+          },
+          "destination": {
+            "name": "Destino"
+          },
+          "arrivals": {
+            "name": "Llegadas"
+          },
+          "no_service": {
+            "name": "Sin servicio"
+          },
+          "source": {
+            "name": "Fuente",
+            "state": {
+              "avanza": "Operador (Avanza)",
+              "zaragoza_city": "Ayuntamiento de Zaragoza"
+            }
+          },
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "directions": {
+            "name": "Cómo llegar"
+          }
+        }
+      },
+      "following_arrival": {
+        "name": "Siguiente llegada",
+        "state_attributes": {
+          "line": {
+            "name": "Línea"
+          },
+          "destination": {
+            "name": "Destino"
+          }
+        }
+      },
+      "minutes_to_next": {
+        "name": "Minutos para la próxima",
+        "state_attributes": {
+          "following": {
+            "name": "Siguiente (min)"
+          },
+          "arrivals": {
+            "name": "Llegadas"
+          }
+        }
+      },
+      "bikes": {
+        "name": "Bicis",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "capacity": {
+            "name": "Anclajes"
+          },
+          "directions": {
+            "name": "Cómo llegar"
+          }
+        }
+      },
+      "electric_bikes": {
+        "name": "Bicis eléctricas"
+      },
+      "mechanical_bikes": {
+        "name": "Bicis mecánicas"
+      },
+      "free_docks": {
+        "name": "Anclajes libres"
+      },
+      "last_report": {
+        "name": "Último informe"
+      },
+      "tram_notices": {
+        "name": "Avisos del tranvía",
+        "state_attributes": {
+          "notices": {
+            "name": "Avisos"
+          }
+        }
+      },
+      "road_works_nearby": {
+        "name": "Cercanas"
+      },
+      "nearest_duty_pharmacy": {
+        "name": "Más cercana",
+        "state_attributes": {
+          "address": {
+            "name": "Dirección"
+          },
+          "phone": {
+            "name": "Teléfono"
+          },
+          "hours": {
+            "name": "Horario"
+          },
+          "distance_km": {
+            "name": "Distancia (km)"
+          },
+          "on_duty": {
+            "name": "De guardia el"
+          },
+          "open_until": {
+            "name": "Abierta hasta"
+          },
+          "directions": {
+            "name": "Cómo llegar"
+          }
+        }
+      },
+      "air_quality_index": {
+        "name": "Índice",
+        "state": {
+          "good": "Buena",
+          "fair": "Razonablemente buena",
+          "moderate": "Regular",
+          "poor": "Desfavorable",
+          "very_poor": "Muy desfavorable",
+          "extremely_poor": "Extremadamente desfavorable"
+        },
+        "state_attributes": {
+          "pollutant": {
+            "name": "Contaminante",
+            "state": {
+              "no2": "NO₂",
+              "o3": "O₃",
+              "so2": "SO₂",
+              "pm10": "PM10",
+              "pm25": "PM2.5"
+            }
+          },
+          "complete": {
+            "name": "Completo"
+          },
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "no2": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "no": {
+        "name": "Monóxido de nitrógeno",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "o3": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "co": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "so2": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "pm10": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "pm25": {
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "h2s": {
+        "name": "Sulfuro de hidrógeno",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "benzene": {
+        "name": "Benceno",
+        "state_attributes": {
+          "latitude": {
+            "name": "Latitud"
+          },
+          "longitude": {
+            "name": "Longitud"
+          },
+          "published_at": {
+            "name": "Publicado el"
+          }
+        }
+      },
+      "pollen": {
+        "state": {
+          "nulo": "Nulo",
+          "bajo": "Bajo",
+          "moderado": "Moderado",
+          "alto": "Alto",
+          "muy_alto": "Muy alto"
+        },
+        "state_attributes": {
+          "published_on": {
+            "name": "Publicado el"
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "find_stops": {
+      "name": "Buscar paradas",
+      "description": "Busca paradas de tranvía, de autobús o estaciones Bizi por nombre, número, calle o línea, las más cercanas primero: desde casa o desde un punto.",
+      "fields": {
+        "kind": {
+          "name": "Tipo",
+          "description": "Paradas de tranvía, de autobús o estaciones Bizi."
+        },
+        "query": {
+          "name": "Texto",
+          "description": "Parte de un nombre, un número, una calle o una línea. Dan igual las tildes y las mayúsculas. Sin texto, devuelve las más cercanas."
+        },
+        "latitude": {
+          "name": "Latitud",
+          "description": "Latitud del punto desde el que medir, junto con la longitud. Sin punto, desde casa."
+        },
+        "longitude": {
+          "name": "Longitud",
+          "description": "Longitud del punto desde el que medir, junto con la latitud. Sin punto, desde casa."
+        },
+        "limit": {
+          "name": "Límite",
+          "description": "Cuántas devolver, como mucho 50."
+        }
+      }
+    },
+    "get_arrivals": {
+      "name": "Ver llegadas",
+      "description": "Muestra los próximos tranvías o autobuses de cualquier parada, esté añadida o no: línea, destino, minutos y hora.",
+      "fields": {
+        "mode": {
+          "name": "Medio",
+          "description": "Tranvía o autobús."
+        },
+        "stop": {
+          "name": "Parada",
+          "description": "El número de la parada, como lo devuelve find_stops; en una parada de autobús, el número de su poste."
+        }
+      }
+    },
+    "get_bizi_station": {
+      "name": "Ver estación Bizi",
+      "description": "Muestra las bicis, por tipo, y los anclajes libres de cualquier estación Bizi, esté añadida o no.",
+      "fields": {
+        "station": {
+          "name": "Estación",
+          "description": "El número de la estación, como en su nombre."
+        }
+      }
+    }
+  },
+  "exceptions": {
+    "tram_unavailable": {
+      "message": "No se pueden obtener las llegadas del tranvía del Ayuntamiento"
+    },
+    "bus_unavailable": {
+      "message": "Ninguna parada de autobús tiene llegadas de los últimos 10 minutos: no responden ni el operador ni el Ayuntamiento"
+    },
+    "bizi_unavailable": {
+      "message": "No responden ni el operador de Bizi ni la lista de Bizi del Ayuntamiento"
+    },
+    "road_works_unavailable": {
+      "message": "No se pueden obtener las obras y cortes del Ayuntamiento"
+    },
+    "pharmacies_unavailable": {
+      "message": "No se puede obtener la lista de farmacias de guardia del Ayuntamiento"
+    },
+    "air_quality_unavailable": {
+      "message": "No se pueden obtener las mediciones de calidad del aire del Ayuntamiento"
+    },
+    "pollen_unavailable": {
+      "message": "No se pueden obtener los niveles de polen del Ayuntamiento"
+    },
+    "unknown_stop": {
+      "message": "Ninguna parada ni estación tiene el código {code}"
+    },
+    "kind_disabled": {
+      "message": "Ese tipo de parada está desactivado en las opciones de la integración"
+    },
+    "source_unavailable": {
+      "message": "La fuente de estos datos no responde ahora mismo"
+    },
+    "station_without_counts": {
+      "message": "La fuente que responde ahora no da bicis ni anclajes de la estación {code}"
+    },
+    "not_loaded": {
+      "message": "Zaragoza Open Data no está en marcha: recárgala y vuelve a intentarlo"
+    }
+  },
+  "issues": {
+    "stop_vanished": {
+      "title": "{title} ya no aparece en la lista",
+      "fix_flow": {
+        "step": {
+          "confirm": {
+            "title": "¿Quitar {title}?",
+            "description": "{title} lleva más de un día sin aparecer en la lista de su fuente: seguramente ha cambiado de número o la han retirado. Envía para quitarla, con su dispositivo y sus sensores. Si ha cambiado de número, añádela de nuevo con el nuevo."
+          }
+        }
+      }
+    }
+  }
+}

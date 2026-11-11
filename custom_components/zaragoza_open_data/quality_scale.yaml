@@ -1,0 +1,170 @@
+# Internal: walked against the code at each release. Not mentioned anywhere users read.
+rules:
+  # Bronze
+  action-setup:
+    status: done
+    comment: The three actions are registered in async_setup and say "not loaded" without an entry.
+  appropriate-polling:
+    status: done
+    comment: Defaults follow each source's update rate and are the minimum (options.py).
+  brands:
+    status: done
+    comment: brand/icon.png and icon@2x.png, original artwork.
+  common-modules:
+    status: done
+    comment: Coordinators in coordinator.py, the base entity in entity.py.
+  config-flow-test-coverage:
+    status: done
+    comment: make test fails below 100% for config_flow.py.
+  config-flow:
+    status: done
+    comment: UI setup, options and stop subentries, with data descriptions.
+  dependency-transparency:
+    status: done
+    comment: No requirements; HTTP goes through Home Assistant's aiohttp session.
+  docs-actions:
+    status: done
+    comment: README "Actions" lists each action's fields, answer and errors.
+  docs-conditions:
+    status: exempt
+    comment: The integration provides no conditions.
+  docs-high-level-description:
+    status: done
+    comment: README opening and "What you get".
+  docs-installation-instructions:
+    status: done
+    comment: README "Installation" and "Setup and adding stops".
+  docs-removal-instructions:
+    status: done
+    comment: README "Removal".
+  docs-triggers:
+    status: exempt
+    comment: No trigger platform; the README documents the new road work event automations use.
+  entity-event-setup:
+    status: done
+    comment: Entities subscribe through CoordinatorEntity; platform listeners stop with the entry.
+  entity-unique-id:
+    status: done
+    comment: Kind plus public code or item id, e.g. tram_2502_next_arrival, road_works_25688.
+  has-entity-name:
+    status: done
+    comment: ZodEntity sets has_entity_name; names come from translations.
+  runtime-data:
+    status: done
+    comment: ZodRuntime in entry.runtime_data.
+  test-before-configure:
+    status: done
+    comment: Setup and the add-stop flows ask the sources first and show cannot_connect.
+  test-before-setup:
+    status: exempt
+    comment: Setup loads with a source down by design, so one source can't stop the others; that source's entities are unavailable until it answers.
+  unique-config-entry:
+    status: done
+    comment: single_config_entry; a stop added twice aborts (subentry unique id kind_code).
+  # Silver
+  action-exceptions:
+    status: done
+    comment: ServiceValidationError for bad input, HomeAssistantError when a source is down.
+  config-entry-unloading:
+    status: done
+    comment: async_unload_entry unloads the platforms; listeners and tasks stop with the entry.
+  docs-configuration-parameters:
+    status: done
+    comment: README "Options" covers every option, with defaults.
+  docs-installation-parameters:
+    status: done
+    comment: README "Setup and adding stops" covers the checklist and the add-stop forms.
+  entity-unavailable:
+    status: done
+    comment: A brief failure keeps the last good data (3 refreshes; pharmacies while their duty turn lasts; a bus stop's board 10 minutes); past that the entities go unavailable.
+  integration-owner:
+    status: done
+    comment: codeowners @nachogarcia.
+  log-when-unavailable:
+    status: done
+    comment: One line when a source stops answering, one when it is back.
+  parallel-updates:
+    status: done
+    comment: PARALLEL_UPDATES = 0 on every platform; coordinators fetch.
+  reauthentication-flow:
+    status: exempt
+    comment: No credentials; every source is open.
+  test-coverage:
+    status: done
+    comment: make test fails below 95%; every module is above it.
+  # Gold
+  devices:
+    status: done
+    comment: A hub, a service device per kind of city information, one device per stop.
+  diagnostics:
+    status: done
+    comment: Options, stops, source status and latest payloads, coordinates redacted.
+  discovery-update-info:
+    status: exempt
+    comment: A cloud service; nothing on the network to discover.
+  discovery:
+    status: exempt
+    comment: A cloud service; nothing on the network to discover.
+  docs-data-update:
+    status: done
+    comment: README "How the data is updated".
+  docs-examples:
+    status: done
+    comment: README examples (the minutes badge, a script, two automations, the map card) and the Assist blueprint.
+  docs-known-limitations:
+    status: done
+    comment: README "Known limitations".
+  docs-supported-devices:
+    status: exempt
+    comment: No physical devices; it reads public web services.
+  docs-supported-functions:
+    status: done
+    comment: README "What you get", "Actions" and "The search card".
+  docs-troubleshooting:
+    status: done
+    comment: README "Troubleshooting".
+  docs-use-cases:
+    status: done
+    comment: README covers fixed stops, any stop from the card, the map, automations and Assist.
+  dynamic-devices:
+    status: done
+    comment: Stops are added from the UI; map items, plants and pollutants appear as the data brings them.
+  entity-category:
+    status: done
+    comment: Bizi "Last report" is diagnostic; nothing is configuration.
+  entity-device-class:
+    status: done
+    comment: Timestamp, duration, enum and pollutant device classes where one fits.
+  entity-disabled-by-default:
+    status: exempt
+    comment: >-
+      Every entity is one people use. Minutes to next is on by default: it is the
+      number a badge shows; its lists stay out of the history.
+  entity-translations:
+    status: done
+    comment: Names, states and attribute names from translations, en and es.
+  exception-translations:
+    status: done
+    comment: Action and update errors use translation keys.
+  icon-translations:
+    status: done
+    comment: icons.json, including states and actions.
+  reconfiguration-flow:
+    status: exempt
+    comment: Setup saves no entry data; the options flow changes everything it asked. Bus stops have a reconfigure step for their lines.
+  repair-issues:
+    status: done
+    comment: A stop missing from its list for over a day raises a fixable issue offering removal.
+  stale-devices:
+    status: done
+    comment: Removed stops and switched-off kinds take their devices; vanished stops get a repair issue.
+  # Platinum
+  async-dependency:
+    status: done
+    comment: The in-tree api/ package is asyncio on aiohttp.
+  inject-websession:
+    status: done
+    comment: Adapters get Home Assistant's shared session (async_get_clientsession).
+  strict-typing:
+    status: done
+    comment: mypy --strict over the integration and scripts, no Any in api/; tests type-checked too.

@@ -1,0 +1,1049 @@
+{
+ "totalCount": 8,
+ "start": 0,
+ "rows": 500,
+ "result": [
+  {
+   "id": 12,
+   "title": "Actur",
+   "distancia": "25 m",
+   "via": "21 m",
+   "trafico": "ligero",
+   "zona": "fondo urbana",
+   "direccion": "calle Cineasta Carlos Saura",
+   "x": 675899.44,
+   "y": 4615874.15,
+   "longitud": "00º 53' 13.0\" W",
+   "latitud": "41º 40' 30.6\"N",
+   "altitud": "198 m",
+   "creationDate": "2018-04-04T09:24:21",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8868307240200246,
+     41.675215945700614
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "21.05",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "16.26",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "14.92",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "43.36",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "16.18",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "14.55",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "22.59",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "40.7",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=40\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 40
+  },
+  {
+   "id": 1,
+   "title": "El Picarral",
+   "distancia": "5,2 m",
+   "via": "6 m",
+   "trafico": "Moderado",
+   "zona": "Urbana",
+   "direccion": "C/ S. Juan de la Peña ",
+   "x": 677292.84,
+   "y": 4615441.97,
+   "longitud": "00º 52'16\" W",
+   "latitud": "41º 40'13\" N",
+   "altitud": "195 m",
+   "creationDate": "2009-07-28T08:35:55",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.870230485308521,
+     41.671016991438336
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.11",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "8.74",
+     "magnitud": "PM2.5",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "26.1",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "22.46",
+     "magnitud": "SH2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "42.7",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "32.39",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "47.37",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "29.97",
+     "magnitud": "SH2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.13",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "10.51",
+     "magnitud": "PM2.5",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "27.29",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "29.55",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=26\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 26
+  },
+  {
+   "id": 2,
+   "title": "Roger de Flor",
+   "distancia": "3 m",
+   "via": "3,5 m",
+   "trafico": "Intenso",
+   "zona": "Urbana",
+   "direccion": "C/ Roger de Flor / Av. Madrid",
+   "x": 673521.47,
+   "y": 4613242.48,
+   "longitud": "00º 54' 59\" W",
+   "latitud": "41º 39' 49\" N",
+   "altitud": "212 m",
+   "creationDate": "0033-12-30T00:00:00",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.9161443976526178,
+     41.65204928195102
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.33",
+     "magnitud": "Benceno",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "30.14",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "28.37",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "53.44",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "2.85",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.16",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "13.99",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.13",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "25.29",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.38",
+     "magnitud": "Benceno",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "3.02",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "13.26",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "41.85",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "29.21",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=29\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 29
+  },
+  {
+   "id": 7,
+   "title": "Jaime Ferran",
+   "distancia": "4 m",
+   "via": "3 m",
+   "trafico": "Muy Ligero",
+   "zona": "Suburbana",
+   "direccion": "C/ Jaime Ferrán / CI Franklin",
+   "x": 677797.0,
+   "y": 4615885.0,
+   "longitud": "00º 51' 51\" W",
+   "latitud": "41º 40' 27\" N",
+   "altitud": "196 m",
+   "creationDate": "2009-07-28T08:35:55",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8640463116873448,
+     41.67489230591245
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "5.08",
+     "magnitud": "SH2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.28",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "11.37",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "4.17",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "11.04",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "4.6",
+     "magnitud": "SH2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.27",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "3.77",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=32\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 32
+  },
+  {
+   "id": 8,
+   "title": "Renovales",
+   "via": "25.81 metros",
+   "zona": "urbana, estación de fondo",
+   "direccion": "Paseo Renovales, dentro del Parque Primo de Rivera",
+   "x": 675451.0,
+   "y": 4611507.0,
+   "longitud": "0º 53' 37\" W",
+   "latitud": "41º 38' 07\" N",
+   "altitud": "220 metros",
+   "creationDate": "2009-07-28T08:35:55",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8934963378115002,
+     41.63600566875383
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "18.65",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "2.49",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "17.77",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "33.19",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "29.97",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.17",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "18.03",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "21.18",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.18",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "40.73",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "26.01",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "2.6",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=36\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 36
+  },
+  {
+   "id": 9,
+   "title": "Las Fuentes",
+   "via": "25m",
+   "trafico": "medio",
+   "zona": "Urbana, estación de tráfico",
+   "direccion": "Calle María de Aragón",
+   "x": 678075.0,
+   "y": 4612333.0,
+   "longitud": "0º 51' 47''W",
+   "latitud": "41º 38' 25'' N",
+   "altitud": "198,20 m",
+   "creationDate": "2009-07-28T08:35:55",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8617671071074204,
+     41.64285894840454
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor2_BUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "4.57",
+     "magnitud": "PM2.5",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "9.39",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "2.71",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "16.48",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "50.76",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 2
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.23",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "46.7",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "5.1",
+     "magnitud": "PM2.5",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "10.32",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "17.1",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.18",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "3.46",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=37\"><img src=\"/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor2_BUENO.png\" alt=\"Razonablemente bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 37
+  },
+  {
+   "id": 10,
+   "title": "Centro",
+   "distancia": "5 m",
+   "via": "5 m",
+   "trafico": "Bajo",
+   "zona": "Urbana, comercial y residencial",
+   "direccion": "Calle Albareda",
+   "x": 676222.15,
+   "y": 4613239.97,
+   "longitud": "676222.74 X",
+   "latitud": "4613240.64 Y",
+   "altitud": "210.69 m",
+   "creationDate": "2009-07-28T08:35:55",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.8837332377253103,
+     41.651434258371395
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor1_MUYBUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "2.73",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "28.75",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "47.24",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "37.68",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.2",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "27.82",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "38.51",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "34.62",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.26",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "2.72",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=38\"><img title=\"Muy Bueno\" src=\"/cont/vistas/portal/medioambiente/img/imagCalidadAire_IconoMUYBUENO.png\" alt=\"Muy bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 38
+  },
+  {
+   "id": 11,
+   "title": "Avda. Soria",
+   "distancia": "13,3 m",
+   "via": "9,9 metros ",
+   "trafico": "10.010 vehículos /día",
+   "direccion": "Avenida ciudad de Soria, a la altura del colegio público Juan XXIII ",
+   "x": 675027.0,
+   "y": 4613901.0,
+   "altitud": "208 m",
+   "creationDate": "2015-05-05T10:44:09",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.897883029074017,
+     41.65764757897242
+    ]
+   },
+   "icon": "/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor2_BUENO.png",
+   "alertas": {
+    "totalCount": -1,
+    "start": 0,
+    "rows": 0
+   },
+   "observation": [
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "35.09",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "4.76",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "30.67",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 2
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "30.91",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "59.84",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T12:00:00",
+     "value": "0.23",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "25.87",
+     "magnitud": "PM10",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 2
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "31.16",
+     "magnitud": "NO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "0.22",
+     "magnitud": "CO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "59.7",
+     "magnitud": "NO",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 0
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "31.76",
+     "magnitud": "O3",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    },
+    {
+     "publicationDate": "2026-11-09T11:00:00",
+     "value": "4.65",
+     "magnitud": "SO2",
+     "estado": "Tiempo real",
+     "periodo": "Horario",
+     "clase": "",
+     "nivelNumero": 1
+    }
+   ],
+   "description": "<a target=\"_BLANK\" href=\"https://www.zaragoza.es/sede/servicio/calidad-aire/estacion/?estacion=39\"><img src=\"/cont/paginas/img/servicios/calidad-aire/imagCalidadAire_Valor2_BUENO.png\" alt=\"Razonablemente bueno\"/></a><p><strong>Fecha:</strong> 09/11/2026 12:00.</p>",
+   "idSparql": 39
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+# serializer version: 1
+# name: test_diagnostics_snapshot_redacts_coordinates
+  dict({
+    'coordinators': dict({
+      'bizi': dict({
+        'cause': None,
+        'cause_message': None,
+        'last_exception': None,
+        'last_update_success': True,
+      }),
+      'bus': dict({
+        'cause': None,
+        'cause_message': None,
+        'last_exception': None,
+        'last_update_success': True,
+      }),
+      'pollen': dict({
+        'cause': 'SourceUnavailableError',
+        'cause_message': 'Source unavailable',
+        'last_exception': 'UpdateFailed',
+        'last_update_success': False,
+      }),
+      'tram': dict({
+        'cause': None,
+        'cause_message': None,
+        'last_exception': None,
+        'last_update_success': True,
+      }),
+    }),
+    'options': dict({
+      'kinds': list([
+        'tram',
+        'bus',
+        'bizi',
+        'pollen',
+      ]),
+      'refresh': dict({
+        'bus_s': 120,
+      }),
+    }),
+    'stops': dict({
+      'bizi_164': dict({
+        'latest': dict({
+          'bikes': 4,
+          'code': '164',
+          'docks': 15,
+          'electric': 4,
+          'mechanical': 0,
+          'renting': True,
+          'reported_at': '2026-11-09T12:40:04+00:00',
+          'returning': True,
+          'source': 'gbfs',
+        }),
+        'place': dict({
+          'address': '164- Rosales: Illueca',
+          'capacity': 19,
+          'code': '164',
+          'location': dict({
+            'latitude': '**REDACTED**',
+            'longitude': '**REDACTED**',
+          }),
+          'name': 'Rosales: Illueca',
+          'source': 'gbfs',
+        }),
+        'source': 'gbfs',
+      }),
+      'bus_688': dict({
+        'latest': dict({
+          'arrivals': list([
+            dict({
+              'destination': 'FUENTE JUNQUERA',
+              'expected_at': '2026-11-09T13:04:30+00:00',
+              'line': '58',
+            }),
+            dict({
+              'destination': 'FUENTE JUNQUERA',
+              'expected_at': '2026-11-09T13:28:30+00:00',
+              'line': '58',
+            }),
+          ]),
+          'notices': list([
+          ]),
+          'observed_at': '2026-11-09T12:40:30+00:00',
+          'source': 'avanza',
+          'stop_code': '688',
+        }),
+        'place': dict({
+          'code': '688',
+          'direction': None,
+          'lines': list([
+            '58',
+          ]),
+          'location': dict({
+            'latitude': '**REDACTED**',
+            'longitude': '**REDACTED**',
+          }),
+          'mode': 'bus',
+          'name': 'P. Reyes de Aragón N.º 24',
+        }),
+        'source': 'avanza',
+      }),
+      'tram_2502': dict({
+        'latest': dict({
+          'arrivals': list([
+            dict({
+              'destination': 'Avenida Academia',
+              'expected_at': '2026-11-09T13:44:02+01:00',
+              'line': 'L1',
+            }),
+            dict({
+              'destination': 'Avenida Academia',
+              'expected_at': '2026-11-09T13:48:02+01:00',
+              'line': 'L1',
+            }),
+          ]),
+          'notices': list([
+          ]),
+          'observed_at': '2026-11-09T13:40:02+01:00',
+          'source': 'zaragoza_city',
+          'stop_code': '2502',
+        }),
+        'place': dict({
+          'code': '2502',
+          'direction': 'Avenida de la Academia',
+          'lines': list([
+            'L1',
+          ]),
+          'location': dict({
+            'latitude': '**REDACTED**',
+            'longitude': '**REDACTED**',
+          }),
+          'mode': 'tram',
+          'name': 'Mago de Oz',
+        }),
+        'source': 'zaragoza_city',
+      }),
+    }),
+    'subentries': list([
+      dict({
+        'data': dict({
+          'code': '2502',
+        }),
+        'subentry_type': 'tram_stop',
+        'title': 'Mago de Oz → Avenida de la Academia',
+        'unique_id': 'tram_2502',
+      }),
+      dict({
+        'data': dict({
+          'code': '688',
+          'lines': list([
+            '58',
+          ]),
+        }),
+        'subentry_type': 'bus_stop',
+        'title': '688 · P. Reyes de Aragón N.º 24 · line 58',
+        'unique_id': 'bus_688',
+      }),
+      dict({
+        'data': dict({
+          'code': '164',
+        }),
+        'subentry_type': 'bizi_station',
+        'title': '164 · Rosales: Illueca',
+        'unique_id': 'bizi_164',
+      }),
+    ]),
+  })
+# ---
