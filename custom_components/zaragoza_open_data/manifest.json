@@ -1,6 +1,10 @@
 {
   "domain": "zaragoza_open_data",
   "name": "Zaragoza Open Data",
+  "categories": [
+    "vehicles_transport.public_transport",
+    "weather_alerts.air_quality_pollen"
+  ],
   "codeowners": ["@nachogarcia"],
   "config_flow": true,
   "dependencies": ["frontend", "http"],
